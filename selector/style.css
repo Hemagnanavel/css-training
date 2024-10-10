@@ -1,0 +1,168 @@
+* {
+    font-family: Inter;
+}
+
+body {
+    margin-left: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 61.6px;
+    text-align: left;
+    color: #223354;
+    padding-bottom: 20px;
+}
+
+.p1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: leff;
+    color: #BDBDBD;
+
+}
+
+.label {
+
+    padding-left: 10px;
+    width: 250px;
+    height: 40px;
+    top: 113px;
+    left: 464px;
+    font-family: Inter;
+    
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+      
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #223354;
+    ;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px  #223354;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.button{
+ 
+    height: 50px;
+    width: 200px;
+    color: white;
+
+  }
+  .top{
+    display: flex;
+    flex-direction: row;
+  }
+  .b1{
+    height: 50px;
+    width: 150px;
+  }
+  a:link, 
+  a:visited {
+    background-color: white;
+    color: #223354;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    height: 20px;
+    width: 208px;
+  }
+  
+  a:hover, 
+  a:active {
+    background-color:#223354 ;
+    color: white;
+  }
+  table,tr,td{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+  }
+  .select{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 180px;
+  }
+  .circle{
+    background-color: #223354;
+    border-radius: 50px;
+  }
+  .bold{
+    color:  #223354;
+
+  }
+  .progress-container {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progress {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #223354;
+  }
