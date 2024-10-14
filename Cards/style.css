@@ -39,11 +39,7 @@
     background-color: #ffffff;
     width: 325px;
     height: 229px;
-    top: 1127px;
-    left: 47px;
-    gap: 0px;
-    border-radius: 8px 0px 0px 0px;
-    opacity: 0px;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .c1 {

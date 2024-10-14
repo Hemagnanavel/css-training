@@ -12,6 +12,10 @@
     padding-bottom: 20px;
 }
 
+.d {
+    background-color: #223354;
+}
+
 .p1 {
     color: #BDBDBD;
     font-size: 16px;
@@ -65,18 +69,18 @@ table {
 td,
 th {
     border: 1px solid #dddddd;
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
     background-color: #dddddd;
 }
 
 .box {
     display: flex;
     flex-direction: row;
-    padding-left: 1100px;
+    padding-left: 800px;
     padding-top: 10px;
 }
 
@@ -150,18 +154,31 @@ tr:nth-child(even) {
 .g1 {
     border: 2px solid #223354;
     background: #223354;
-    width:  534px;
-    height:55px;
+    width: 534px;
+    height: 55px;
 
 }
+
 .g2 {
     border: 2px solid #e0e0e0;
     background: #e0e0e0;
-    width:  534px;
-    height:205px;
+    width: 534px;
+    height: 205px;
+    margin-left: 20px;
 
 }
-.end{
+
+.end {
     display: flex;
     flex-direction: row;
+}
+
+.tb {
+    background-color: #1ab4d7;
+    width: 88px;
+    height: 49px;
+    top: 7px;
+    left: 928px;
+    padding: 13px 29px 13px 27px;
+    color: white;
 }
