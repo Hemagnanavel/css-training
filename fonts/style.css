@@ -1,0 +1,8 @@
+@font-face {
+    font-family: hema;
+    src: url(./SixtyfourConvergence-Regular-VariableFont_BLED\,SCAN\,XELA\,YELA.ttf);
+}
+
+body {
+    font-family: hema;
+}

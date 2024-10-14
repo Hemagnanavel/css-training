@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        selectors
+    </title>
+    <link rel="stylesheet" href="st.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="title">05. Selectors</h1>
+    <div class="main">
+        <div style="display: flex; flex-direction: row;">
+
+            <div class="dropdow">
+                <p class="p1">Dropdown </p>
+
+                <select class="myDropdown">
+                    <option class="text" value="Dropdown">Dropdown</option>
+                    <option class="text" value="option1">Option 1</option>
+                    <option class="text" value="option2">Option 2</option>
+                    <option class="text" value="option3">Option 3</option>
+                </select>
+                <div style="margin: 0;">
+                    <div style="padding-top: 20px; padding-left: 0px;">
+                        <select class="myDropdown" id="Dropdown">
+                            <option class="text" value="Dropdown">Dropdown</option>
+                        </select>
+                    </div>
+                    <div style="padding-top: 20px;">
+                        <div class="box">
+                            <p class="op">option 1</p>
+                        </div>
+                        <div class="box" style="background-color: #223354;">
+                            <p class="op" style="color: #fefefe;">option 2</p>
+                        </div>
+                        <div class="box">
+                            <p class="op">option 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column;">
+                <div class="b">
+                    <div class="b1">
+
+                        <div class="ch">
+                            <p class="p1">checkbox </p>
+                            <form>
+                                <input type="checkbox" name="coding" value="coding">
+                                <label class="p" for="email">Checkbox</label><br>
+                                <input type="checkbox" name="music" value="music">
+                                <label class="p" for="email">Checkbox</label><br>
+                                <input disabled class="p1" type="checkbox" name="coffee" value="coffee">
+                                <label class="p1" for="email">Checkbox</label><br>
+                            </form>
+                        </div>
+                        <div class=" rb">
+                            <p class="p1">Radio Button </p>
+
+                            <input type="radio" name="contact" value="email" id="email" checked>
+
+                            <label class="p" for="phone">Radio Button </label><br>
+                            <input type="radio" name="contact" value="phone" id="phone">
+                            <label class="p" for="phone">Radio Button </label><br>
+                            <input type="radio" name="contact" value="message" id="message">
+                            <label disabled class="p1" for="email">Radio Buttton</label><br>
+
+                        </div>
+                        <div class="tg">
+                            <p class="p1"> Toggle</p>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+                            <label class="p"> Toggle ON</label>
+                            <br><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"> </span>
+                            </label class="p"> Toggle OFF</label>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="large">
+                    <div>
+                        <p class="p1"> Large Selectors</p>
+                        <button style="   background-color: #223354;" class=" button">No Additions</button>
+                        <div style="padding-top: 20px;">
+                            <button class=" button">No Additions</button>
+                        </div>
+                    </div>
+                    <div class="t">
+                        
+                        <p class="p1">Date Picker</p>
+                        <table>
+                            <p> <strong>Agusuts 2020 <span style="padding-left: 120px;">
+                                        <  >
+                                    </span> </strong></p>
+                            <tr>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>T</th>
+                                <th>F</th>
+                                <th>S</th>
+                            </tr>
+                            <tr>
+                                <td class="p1">1</td>
+                                <td class="p1">2</td>
+                                <td class="p1">3</td>
+                                <td class="p1">4</td>
+                                <td class="p1">5</td>
+                                <td class="p1">6</td>
+                                <td class="p1">7</td>
+                            </tr>
+                            <tr>
+                                <td class="p1">8</td>
+                                <td class=" circle"> 9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>14</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                                <td>21</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>31</td>
+                            </tr>
+                        </table>
+
+
+                    </div>
+                    
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="end" style="    margin-top: -10rem;">
+                <div class="pg">
+    
+                    <p class="p1" style="padding-left: 5px;">pagination</p>
+                    <div class="pt">
+                        <div>
+                            <div style="  background-color: #223354;" class="c">
+                                <p class="a1"> 1</p>
+                            </div>
+                        </div>
+                        <div style="padding-left: 20px;">
+                            <div class="c" style="  background-color: white;">
+                                <p class="a2"> 2</p>
+                            </div>
+        
+                        </div>
+                        <div style="padding-left: 20px;">
+                            <div class="c" style="  background-color: white;">
+                                <p class="a2"> 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p  class="p1" style="padding-left: 10px;">Breadcrumbs</p>
+                    <div style="display: flex; flex-direction: row;">
+                     
+                     <div style="display: flex; flex-direction: row;">
+                         <div style="display: flex; flex-direction: row;">
+                             <img src="Rectangle.png" alt="home">
+                         </div>
+                         <div style="padding-left: 10px;" class="p1">Home >  Detail  > <span class=" bold"> Pricing</span></div>
+         
+         
+                     </div>
+    
+                </div>
+               
+            </div>
+             <div>
+                    <p  class="p1" style="padding-left: 10px;">Tabs</p>
+                    <div class="tabs">
+                        <button class="tablinks active" onclick="openTab(event, 'Tab1')"><span class="p2"> Section 1</span></button>
+                        <button class="tablinks" onclick="openTab(event, 'Tab2')"> <span class="p1"> Section 2</span></button>
+                     
+                      </div>
+                </div>
+    
+
+        </div>
+        
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
