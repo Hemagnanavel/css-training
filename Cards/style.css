@@ -19,10 +19,23 @@
     line-height: 22.4px;
     text-align: left;
 }
-
-.heading {
+.hd {
+   
     width: 350px;
     height: 44px;
+    top: 217px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    
+    color: #f9f9f9;
+
+
+}
+
+.heading {
+    width: 600px;
+   
     top: 217px;
     left: 150px;
     gap: 0px;
@@ -65,7 +78,7 @@
     width: 266px;
     border-radius: 8px;
     background-color: #223354;
-    box-shadow: #223354;
+    box-shadow: #f0f0f0;
 }
 
 .z2 {
@@ -75,7 +88,7 @@
     width: 266px;
     border-radius: 8px;
     background-color: #ffffff;
-    box-shadow: #EDF0F5;
+    box-shadow: 2px #f0f0f0;
 }
 
 .end {
@@ -85,22 +98,24 @@
 }
 
 .xy {
-    border: 2px solid;
+    border: 2px solid#EDF0F5;
     background-color: #EDF0F5;
     width: 244px;
     height: 213px;
     left: 557px;
     gap: 0px;
     opacity: 0px;
+    box-shadow:  2px #f0f0f0;
 }
 .xyz {
-    border: 2px solid;
+    border: 2px solid #EDF0F5;
     background-color: #EDF0F5;
     width: 250px;
     height: 277px;
     left: 557px;
     gap: 0px;
     opacity: 0px;
+    box-shadow: 2px #f0f0f0;
 }
 .c {
     height: 48px;
@@ -108,6 +123,7 @@
     background-color: #223354;
     color: #EDF0F5;
     border-radius: 8px;
+    box-shadow: 2px #f0f0f0;
 }
 .bt {
     height: 62px;
@@ -115,4 +131,5 @@
     background-color: #1ab4d7;
     color: #EDF0F5;
     border-radius: 8px;   
+     box-shadow: 2px #f0f0f0;
 }
