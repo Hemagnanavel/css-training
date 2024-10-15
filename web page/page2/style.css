@@ -1,4 +1,11 @@
-.div1 {
+body {
+    font-family: Inter;
+    background-color: #f4f5f6;
+}
+
+
+
+.left {
     background: #FFFFFF;
     width: 250px;
     height: 700px;
@@ -8,17 +15,19 @@
     padding: 20px;
     padding-left: 30px;
 }
+
 .logo {
     width: 75.05px;
     height: 59.21px;
     left: 67.21px;
     border-radius: 2px;
     align-items: center;
-   padding-bottom: 100px;
-   padding-left: 15px;
-   padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-top: 10px;
 
 }
+
 .vector {
     width: 13.94px;
     height: 20px;
@@ -32,6 +41,7 @@
 .emi {
     padding-left: 20px;
 }
+
 .ds {
     font: inter;
     font-weight: 500;
@@ -45,20 +55,73 @@
     line-height: 50px;
     padding-left: 20px;
 }
-.div2{
-     background: #FFFFFF;
-    height:60px ;
-    width: auto;
-    display: inline-flex;
-    justify-content: space-between;
-}
 
 .right {
+    background: #FFFFFF;
+    height: 80px;
+    width: 1350px;
+}
+
+.rr {
     display: flex;
     flex-direction: row;
-    padding-left: 110px;
+    padding-left: 360px;
     padding-top: 10px;
+
 }
-.left {
+
+.rl {
     padding-top: 10px;
+    height: 100px;
+    width: 500px;
+}
+
+.il {
+    border: 2px solid #ffffff;
+    box-shadow: #ffffff;
+    height: 768px;
+    width: 240px;
+}
+
+.box {
+    height: 56px;
+    width: 320px;
+    border: 2px solid #dbdcdc;
+    color: #ababac;
+}
+.title {
+   color: black;
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 22.4px;
+text-align: left;
+
+}
+
+.ptext {
+     color: #cfcfcf;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+
+}
+
+.la {
+    width: 33.33%;
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.interestrate {
+    width: 33.33%;
+
+}
+
+.loanemi {
+    width: 33.33%;
 }
