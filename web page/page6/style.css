@@ -3,8 +3,6 @@ body {
     background-color: #f4f5f6;
 }
 
-
-
 .left {
     background: #FFFFFF;
     width: 250px;
@@ -102,7 +100,15 @@ body {
     text-align: left;
 
 }
+.title1 {
+    color: black;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+  margin-top: 0;
+    text-align: left;
 
+}
 .ptext {
     color: #cfcfcf;
     font-family: Inter;
@@ -136,8 +142,8 @@ body {
 .calb {
     height: 55px;
     width: 235px;
-    border: 2px solid #e0e0e0;
-    background-color: #e0e0e0;
+    border: 2px solid #1ab4d7;
+    background-color: #1ab4d7;
     color: white;
     border-radius: 8px;
 }
@@ -168,6 +174,14 @@ input[type="radio"] {
     border: 0;
     border-top: 1px solid #eee;
 }
+.lb2 {
+    background: #FFFFFF;
+    width: 340px;
+    height: 348px;
+    float: left;
+    padding: 20px;
+    padding-left: 30px;
+}
 .select {
     background-color: #edf9fc;
     width: 208px;
@@ -175,12 +189,38 @@ input[type="radio"] {
     border-radius: 8px;
     float: left;
 }
-.title1 {
-    color: black;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 700;
-  margin-top: 0;
-    text-align: left;
-
-}
+/*tabs*/
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    font-family: sans-serif;
+  }
+  
+  .tabs__label {
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  
+  .tabs__radio {
+    display: none;
+  }
+  
+  .tabs__content {
+    order: 1;
+    width: 100%;
+    border-bottom: 3px solid #dddddd;
+    line-height: 1.5;
+    font-size: 0.9em;
+    display: none;
+  }
+  
+  .tabs__radio:checked+.tabs__label {
+    font-weight: bold;
+    color: #223354;
+    border-bottom: 2px solid #223354;
+  }
+  
+  .tabs__radio:checked+.tabs__label+.tabs__content {
+    display: initial;
+  }
