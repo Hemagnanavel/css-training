@@ -309,12 +309,12 @@ text-align: center;
 .tooltipl {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #223354;
+ 
 }
 
 .tooltipl .tooltiptext {
 
-  width: 148px;
+  width: 130px;
   background-color: #223354;
   color: #fff;
   text-align: center;
@@ -344,7 +344,7 @@ text-align: center;
 .tooltipb {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted#223354;
+
 }
 
 .tooltipb .tooltiptext {
@@ -380,7 +380,7 @@ text-align: center;
 .tooltipr {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #223354;
+ 
 }
 
 .tooltipr .tooltiptext {
@@ -470,7 +470,7 @@ stroke: #f3f3f3;
 .tooltipb2{
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #223354;
+ 
 }
 
 .tooltipb2 .tooltiptext {
@@ -507,7 +507,7 @@ stroke: #f3f3f3;
 .tooltiplb2 {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #223354;
+ 
 }
 
 .tooltiplb2 .tooltiptext {
@@ -541,7 +541,7 @@ stroke: #f3f3f3;
 .tooltipbb2 {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted#223354;
+ 
 }
 
 .tooltipbb2 .tooltiptext {
@@ -576,7 +576,7 @@ stroke: #f3f3f3;
 .tooltiprb2 {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+
 }
 
 .tooltiprb2 .tooltiptext {
@@ -600,7 +600,7 @@ stroke: #f3f3f3;
   margin-top: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent black transparent transparent;
+  border-color: transparent #223354 transparent transparent;
 }
 .tooltiprb2:hover .tooltiptext {
   visibility: visible;
@@ -610,7 +610,7 @@ stroke: #f3f3f3;
 .tooltiplc2 {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #223354;
+ 
 }
 
 .tooltiplc2 .tooltiptext {
@@ -681,7 +681,7 @@ stroke: #f3f3f3;
 .tooltiprc2 {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted #223354;
 }
 
 .tooltiprc2 .tooltiptext {
@@ -705,7 +705,7 @@ stroke: #f3f3f3;
   margin-top: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent black transparent transparent;
+  border-color: transparent #223354 transparent transparent;
 }
 .tooltiprc2:hover .tooltiptext {
   visibility: visible;
@@ -713,7 +713,7 @@ stroke: #f3f3f3;
 .tooltipc2{
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #223354;
+
 }
 
 .tooltipc2 .tooltiptext {
