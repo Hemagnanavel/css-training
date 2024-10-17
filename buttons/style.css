@@ -59,6 +59,7 @@ text-align: leff;
     padding-top: 20px;
 
 }
+/* Color button*/
 .a {
     height: 55px;
     width: 275px;
@@ -73,6 +74,7 @@ text-align: leff;
     color: #EDF0F5;
     border-radius: 8px;
 }
+/* size button*/
 .sb1 {
     height: 48px;
     width: 241px;
@@ -101,6 +103,7 @@ text-align: leff;
     color: #EDF0F5;
     border-radius: 8px;
 }
+/*full width button*/
 .sc1 {
     height: 55px;
     width: 321px;
@@ -140,6 +143,7 @@ text-align: leff;
     display: flex;
     flex-direction: row;
 }
+/* normal buttton*/
 .x1 {
     height: 55px;
     width: 275px;
@@ -168,6 +172,7 @@ text-align: leff;
     color: #EDF0F5;
     border-radius: 8px;
 }
+/* outer button*/
 .y1 {
     height: 55px;
     width: 275px;
@@ -196,6 +201,7 @@ text-align: leff;
     color: #e4e4e4;
     border-radius: 8px;
 }
+/*icon width button*/
 .z1 {
     height: 56px;
     width: 253px;
@@ -224,6 +230,7 @@ text-align: leff;
     color: #e4e4e4;
     border-radius: 8px;
 }
+/*icon button*/
 
 .i1 {
     height: 56px;
@@ -231,6 +238,7 @@ text-align: leff;
     background-color:#223354;
     color: #e4e4e4;
     border-radius: 30px;
+    margin-left: 0;
 }
 .i2 {
     height: 56px;
@@ -238,6 +246,7 @@ text-align: leff;
     background-color:#18243b;
     color: #e4e4e4;
     border-radius: 30px;
+    margin-left: 0;
 }
 .i3 {
     height: 56px;
@@ -245,6 +254,7 @@ text-align: leff;
     background-color:#647087;
     color: #e4e4e4;
     border-radius: 30px;
+    margin-left: 0;
 }
 .i4 {
     height: 56px;
@@ -252,4 +262,8 @@ text-align: leff;
     background-color:#e0e0e0;
     color: #e4e4e4;
     border-radius: 30px;
+    margin-left: 0;
+}
+.d{
+    color: white;
 }

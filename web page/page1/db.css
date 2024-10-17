@@ -1,3 +1,13 @@
+body {
+    background-color: #f4f5f6;
+
+}
+
+* {
+    font-family: Inter;
+}
+
+
 .div1 {
     background: #FFFFFF;
     width: 250px;
@@ -34,7 +44,8 @@
     padding-left: 100px;
 
 }
-.div4{
+
+.div4 {
     display: inline;
     position: absolute;
     top: 180px;
@@ -159,14 +170,14 @@
     height: 100;
     width: auto;
     top: 400px;
-    left: 400px; 
+    left: 400px;
     display: flex;
     flex-direction: column;
 
 }
 
 
-.label1{
+.label1 {
     width: 500px;
     height: 200px;
     top: 113px;
@@ -175,42 +186,82 @@
     opacity: 0px;
 }
 
-.table{
-    width: 350px;
+.table {
     border: 1px solid #BDBDBD;
     margin: auto;
-    height: 300px;
+    width: 386px;
+    height: 355px;
+
+
 }
-.t2{
-    width: 200px;
+
+.t2 {
+    width: 338px;
+    height: 175px;
     border: 2px dotted #BDBDBD;
     margin: auto;
     height: 200px;
-    text-align: center;
+
 }
-.t3{
-    width: 300px;
+
+.t3 {
+   
     border: 1px solid #BDBDBD;
     margin: auto;
-    height: 200px;
+    width: 320px;
+    height: 268px;
+   
+    
 }
-.upload{
+
+.upload {
     width: 100px;
     border: 1px solid#BDBDBD;
     margin: auto;
-    height: 20px;;
+    height: 20px;
+    ;
 }
 
-.input-container{
-    display:flex;
+.input-container {
+    display: flex;
     flex-wrap: wrap;
     padding-left: 40px;
     padding-top: 40px;
     gap: 60px;
 }
-.input{
+
+.input {
     width: 40%;
-   
+
 }
 
+.tt {
+    color: black;
+
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+
+}
+
+.bx {
+    height: 55px;
+    width: 338px;
+   
+   
     
+    background-color: #e0e0e0;
+    color: #EDF0F5;
+    border-radius: 8px;
+}
+
+.text {
+
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: leff;
+}

@@ -1,0 +1,26 @@
+
+/* circle progress bar */
+
+
+
+/* semi-progress */
+.progress-bar-01,.progress-bar-02 {
+    width: 155px;    height: 155px;
+    border-radius: 50%;    transform: translate(15px, 15px);
+    background-color: white;    color: #223354;
+    z-index: 0;    position: relative;
+}
+
+.semi-progress-bar {    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;    background-image: conic-gradient(from 82deg, #E0E0E0 120deg, #223354 83deg);
+    width: 187px;    height: 98px;
+}
+.progress-bar-02 h4 {    position: absolute;
+    font-size: 20px;    font-weight: 600;
+    color: #333333;    top: 10px;
+    left: 55px;}
+.progress-bar-02 p {
+    position: absolute;    font-size: 14px;
+    font-weight: 400;    color: #333333;
+    top: 50px;    left: 25px;
+}

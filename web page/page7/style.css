@@ -3,8 +3,6 @@ body {
     background-color: #f4f5f6;
 }
 
-
-
 .left {
     background: #FFFFFF;
     width: 250px;
@@ -102,7 +100,15 @@ body {
     text-align: left;
 
 }
+.title1 {
+    color: black;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+  margin-top: 0;
+    text-align: left;
 
+}
 .ptext {
     color: #cfcfcf;
     font-family: Inter;
@@ -136,8 +142,8 @@ body {
 .calb {
     height: 55px;
     width: 235px;
-    border: 2px solid #e0e0e0;
-    background-color: #e0e0e0;
+    border: 2px solid #1ab4d7;
+    background-color: #1ab4d7;
     color: white;
     border-radius: 8px;
 }
@@ -168,21 +174,20 @@ input[type="radio"] {
     border: 0;
     border-top: 1px solid #eee;
 }
+.lb2 {
+    background: #FFFFFF;
+    width: 340px;
+    height: 348px;
+    float: left;
+    padding: 20px;
+    padding-left: 30px;
+}
 .select {
     background-color: #edf9fc;
     width: 208px;
     height: 58px;
     border-radius: 8px;
     float: left;
-}
-.title1 {
-    color: black;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 700;
-  margin-top: 0;
-    text-align: left;
-
 }
 /*tabs*/
 .tabs {
@@ -219,31 +224,27 @@ input[type="radio"] {
   .tabs__radio:checked+.tabs__label+.tabs__content {
     display: initial;
   }
-  .lb2 {
-    background: #FFFFFF;
-    width: 340px;
-    height: 348px;
-    float: left;
-    padding: 20px;
-    padding-left: 30px;
-}
   /*color box */
-.cbox {
+  .cbox {
     width: 16px;
     height: 16px;
-    background-color: #88A825;
+    background-color:#88A825;
     border-radius: 8px;
-}
-
-.bx {
-    border: 2px solid #efefef;
+  }
+  .bx {
+    border: 2px solid #efefef ;
     width: 330px;
     height: 45px;
-}
-
-.cb {
+  }
+  .cb {
     width: 16px;
     height: 16px;
     background-color: #ED8C2B;
     border-radius: 8px;
-}
+  }
+  .tt {
+height: 20px;
+top: 771px;
+padding-left: 2px;
+color: #3c4c68;
+  }

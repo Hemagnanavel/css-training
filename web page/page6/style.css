@@ -224,3 +224,27 @@ input[type="radio"] {
   .tabs__radio:checked+.tabs__label+.tabs__content {
     display: initial;
   }
+    /*color box */
+    .cbox {
+        width: 16px;
+        height: 16px;
+        background-color:#88A825;
+        border-radius: 8px;
+      }
+      .bx {
+        border: 2px solid #efefef ;
+        width: 330px;
+        height: 45px;
+      }
+      .cb {
+        width: 16px;
+        height: 16px;
+        background-color: #ED8C2B;
+        border-radius: 8px;
+      }
+      .tt {
+    height: 20px;
+    top: 771px;
+    padding-left: 2px;
+    color: #3c4c68;
+      }

@@ -4,10 +4,16 @@
 <head>
     <title>Dashboard</title>
     <link rel="stylesheet" href="db.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body style=" background: #2233540D;">
+    <!--left side dashboard-->
     <div class="div1">
         <img src="Exclude.png" alt="exclude" class="exclude"><br>
         <img src="Vector.png" alt="vector" class="vector"><span class="ds">Dashboard</span><br>
@@ -16,6 +22,7 @@
         <img src="logout.png" alt="logout" class="emi">
         <p1 class="p2" style="line-height: 700px;">Logout</p1>
     </div>
+    <!--right-->
     <div class="div2">
         <div class="header">
             <div class="left">
@@ -28,30 +35,39 @@
             </div>
         </div>
 
-        <div class="input-container">
-            <div class="input">
-                <p>Label Sample</p>
+        <div class="input-container" style="padding-left: 100px; padding-top: 100px;">
+            <div class="input" style="padding-left: 20px;">
+                <p class="tt">Label Sample</p>
                 <input class="label" type="text" value="Input text">
             </div>
             <div class="input">
-                <p>Label Sample</p>
+                <p class="tt">Label Sample</p>
                 <input class="label" type="text" value="Input text">
             </div>
-            <div class="input">
+            <div class="input" style="padding-top: 30px;">
                 <div class="table">
-                    <p>Upload File</p>
-                <div class="t2">
-                    <img src="upload.png" alt="upload" style="padding-top: 10px;">
-                    <p>Drag n Drop here <br> or<br>Browse</p>
-                    <button class="upload"> Upload Now</button>
+                    <p class="tt" style="padding-left: 20px;">Upload Logo</p>
+                <div class="t2" style=" align-items: center;">
+                  <div style="position: absolute;     padding-top: -45px;
+    padding-left: 129px">
+                    <img src="upload.png" alt="upload" style="padding-top: 50px;">
+                  </div>
+                    <p style="padding-left: 100px; padding-top: 100px;">Drag n Drop here <br> <span style="padding-left: 40px;"> or</span><br><span  style="padding-left: 20px;">Browse</span></p>
+                   
+                </div>
+                <div style="padding-left: 20px; padding-top: 20px;">
+                    <button disabled class="bx"><p class="text">Upload now</p></button>
                 </div>
                 </div>
                 
             </div>
+            <!--right side-->
             <div class="input">
-                <p>Label Sample</p>
+                 <p class="tt">Label Sample</p>
                 <div class="t3">
-                    <p> Who is this<br>invoice from?(required)</p>
+                  <div style=" padding-left: 30px; padding-top: 20px;">
+                    <p> Who is this<br>invoice from?<br>(required)</p>
+                  </div>
                 </div>
             </div>
         </div>

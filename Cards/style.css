@@ -1,6 +1,6 @@
 * {
     font-family: Inter;
-    margin-left: 10px;
+  
 }
 
 .title {
@@ -10,6 +10,7 @@
     text-align: left;
     color: #223354;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .p1 {
@@ -18,16 +19,34 @@
     font-weight: 500;
     line-height: 22.4px;
     text-align: left;
+    margin-left: 20px;
 }
+.text {
+    color:  #BDBDBD;
+    font-size: 16px;
+    font-weight: 400;
+   
+    text-align: left;
+}
+.ht{
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+color: #223354;
+line-height: 0;
+
+
+}   
 .hd {
    
     width: 350px;
     height: 44px;
     top: 217px;
     left: 150px;
+    padding-left: 20px;
     gap: 0px;
     opacity: 0px;
-    
+    padding-left: 20px;
     color: #f9f9f9;
 
 
@@ -72,7 +91,7 @@
 }
 
 .z1 {
-    border: 2px solid #223354;
+    border: 1px solid #223354;
     color: #EDF0F5;
     height: 230px;
     width: 266px;
@@ -82,7 +101,7 @@
 }
 
 .z2 {
-    border: 2px solid #223354;
+    border: 1px solid #223354;
     color: #223354;
     height: 230px;
     width: 266px;
