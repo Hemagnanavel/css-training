@@ -11,13 +11,14 @@
     </head>
     <body>
         <h1 class="title">09. Cards</h1>
-        <div class="main" style=" width: 100%;">
+        <div class="main" style=" width: 95%;">
+            <!-- Carousel-->
             <div class="top" style="width: 100%; padding-left: 50px;">
                 <p class="p1" style="padding-left: 20px;"> Carousel</p>
                 <div style= "background-image: url('background.png'); width: 100%;
                 height: 100%;
                
-                border-radius: 16px 0px 0px 0px;
+                border-radius: 16px;
                 opacity: 0px;
                 ">
                  <div style="position: absolute;     padding-top: 280px; padding-left: 30px;">
@@ -25,7 +26,7 @@
                 </div>
                
                  <div style="position: absolute; ">
-                    <img src="Navigation-filled (1).png" alt="" style="    padding-left: 1120px; padding-top: 280px;">
+                    <img src="Navigation-filled (1).png" alt="" style="     padding-left: 1257px; padding-top: 303px;">
                 </div>
                <div style="padding-top: 300px; width: 450px; height: 300px;  padding-left: 100px;">
                
@@ -38,38 +39,45 @@
                </div>
 
             </div>
+            <!-- cards-->
             <div class="center" style="width: 100%; padding-left: 50px;">
                 <p class="p1" style="padding-left: 20px;"> Cards</p>
-               <div style="display: flex; flex-direction: row; padding-top: 20px;">
-                <div style="width: 33.33%;">
-                    <img style="height: 297px; width: 325px;" src="Image (1).png" alt="image">
+               <div style="display: flex; flex-direction: row; padding-top: 20px;  gap: 40px;">
+                
+                <div style="width: 33.33%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;border-radius: 8px;
+                overflow: hidden; height: 100%;">
+                    <img style="height: 297px; width: 100%;" src="Image (1).png" alt="image">
                     <div class="b1">
-                        <h5 style="padding-left: 20px;">Card Title</h5>
-                        <div style="padding-left: 20px;">
+                        <h5  class="ht" >Card Title</h5>
+                        <div >
                             Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.
                         </div>
                     </div>
                 </div>
-                <div style=" width: 33.33%";>
-                    <img style="height: 297px; width: 325px;" src="Image (2).png" alt="image">
+                <div style="width: 33.33%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;border-radius: 8px;
+                overflow: hidden; height: 100%;">
+                    <img style="height: 297px; width: 100%;" src="Image (2).png" alt="image">
                     <div class="b1">
-                        <h5 style="padding-left: 20px;">Card Title</h5>
-                        <div style="padding-left: 20px;">
+                        <h5  class="ht" >Card Title</h5>
+                        <div>
                             Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.
                         </div>
-                        <div style="padding-top: 10px; padding-left: 20px;">
+                        <div style="padding-top: 10px; padding-left: 70px">
                             <button disabled class="c1" >Link</button>
                         </div>
                     </div>
                 </div>
-                <div style="width: 33.33%; ">
-                    <div style="background-image: url('Images\ 2.png'); height: 546px; width: 326px;">
-                        <div style="padding-top: 300px;">
-                            <h5 style="padding-left: 20px;">Card Title</h5>
-                            <div style="padding-left: 20px;">
+                <div style="width: 33.33%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;border-radius: 8px;
+                overflow: hidden; height: 100%;">
+                     <img style="height: 546px; width: 100%;" src="Images 2.png" alt="image">
+                        <div style="position: absolute; margin-top: -190px; ">
+                            <h5  class="ht1" style="padding-left: 10px;" >Card Title</h5>
+                            <div style="    width: 92%;
+                            padding: 0 9px;
+                            text-align: start;">
                                 Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.
                             </div>
-                            <div style="padding-top: 10px; padding-left: 20px;">
+                            <div style="padding-top: 10px; padding-left: 81px;">
                                 <button disabled class="c2">Read More</button>
                             </div>
                         </div>
@@ -78,40 +86,38 @@
                </div>
 
             </div>
-        <div class="end" style="width: 100%; padding-left: 50px;">
+            <!--header-->
+        <div class="end" style="width: 95%; padding-left: 50px;">
             <div class="e" style="width: 25%;">
                 <div class="z1">
-                    <p style="padding-left: 20px;">Header </p>
-                    <hr>
-                    <h5 style="padding-left: 20px;">Primary Card Title</h5>
-                    <p style="padding-left: 20px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="ct" style="border-bottom: 2px solid white; padding-bottom: 20px;">Header </p>
+                    
+                    <h5 class="ht1" >Primary Card Title</h5>
+                    <p class="ct">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
                 
             </div>
             <div class="e" style="width: 25%;">
                 <div class="z2">
-                    <p style="padding-left: 20px;">Header </p>
-                    <hr>
-                    <h5 style="padding-left: 20px;">Primary Card Title</h5>
-                    <p style="padding-left: 20px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="ctb" style="border-bottom: 2px solid black; padding-bottom: 20px;">Header </p>
+                    
+                    <h5 class="ht" >Primary Card Title</h5>
+                    <p class="ctb">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
                 
             </div>
-
             <div style="width: 25%;">
                 <div class="xy">
-                    <h5 class="ht" style="padding-left: 20px;">Card Title</h5>
-                    <p class="text" style="padding-left: 20px;">Card Subtitle</p>
-                    <p style="padding-left: 20px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-
+                    <h5 class="ht" >Card Title</h5>
+                    <p class="text" >Card Subtitle</p>
+                    <p class="ctb">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
             <div class="xyz" style="width: 25%;">
-                <p class="text" style="padding-left: 20px;">Card Subtitle</p>
-                <h5 class="ht" style="padding-left: 20px;">Card Title</h5>
-                <p style="padding-left: 20px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div style="padding-left: 20px;">
+                <p class="text" >Card Subtitle</p>
+                <h5 class="ht">Card Title</h5>
+                <p class="ctb" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div style="padding-left: 40px;">
                 <button disabled class="c">Link</button>
               </div>
 

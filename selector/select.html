@@ -191,8 +191,8 @@
                 <p class="p1" style="padding-left: 10px;">Breadcrumbs</p>
                 <div style="display: flex; flex-direction: row;">
 
-                    <div style="display: flex; flex-direction: row;">
-                        <div style="display: flex; flex-direction: row;">
+                    <div style="display: flex; flex-direction: row; padding-top: 10px;">
+                        <div style="display: flex; flex-direction: row; ">
                             <img src="Rectangle.png" alt="home">
                         </div>
                         <div style="padding-left: 10px;" class="p1">Home > Detail > <span class=" bold"> Pricing</span>
@@ -201,13 +201,18 @@
                 </div>
             </div>
             <!--tabs-->
-            <div>
+            <div style="display: flex; flex-direction: column;">
                 <p class="p1" style="padding-left: 10px;">Tabs</p>
-                <div class="tabs">
-                    <button class="tablinks active" onclick="openTab(event, 'Tab1')"><span class="p2"> Section
-                            1</span></button>
-                    <button class="tablinks" onclick="openTab(event, 'Tab2')"> <span class="p1"> Section
-                            2</span></button>
+                <div class="tab" style="padding-left: 20px;">
+                    <div class="tabs">
+                        <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
+                        <label for="tab1" class="tabs__label">Section 1</label>
+    
+                        <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
+                        <label for="tab2" class="tabs__label">Section 2</label>
+                
+                    </div>
+    
                 </div>
             </div>
         </div>
