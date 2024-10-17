@@ -29,7 +29,14 @@
     font-weight: 700;
     text-align: left;
 }
+.ni {
+  color:  #828282;
+font-size: 24px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
 
+}
 .b1 {
     width: 478px;
     height: 54px;
