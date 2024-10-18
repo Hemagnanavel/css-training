@@ -46,6 +46,7 @@
   background-color: #223354;
   color: white;
   margin-top: -20px;
+  border-radius: 4px;
 
 }
 
@@ -190,7 +191,7 @@ input[type='file'] {
   background-color: #E2B93B;
   color: black;
   border-radius: 8px;
-   border-color: none;
+  
 }
 
 .b7 {
@@ -199,7 +200,7 @@ input[type='file'] {
   background-color: #E0E0E0;
   color: black;
   border-radius: 8px;
-  border-color: none;
+
 }
 
 .b8 {
@@ -208,7 +209,7 @@ input[type='file'] {
   background-color: #333333;
   color: white;
   border-radius: 8px;
- border-color: none;}
+}
 
 .circle {
   width: 160px;
@@ -445,6 +446,8 @@ input[type='file'] {
 
 }
 
+
+
 .bx .percent svg circle {
   width: 187px;
   height: 187px;
@@ -452,21 +455,40 @@ input[type='file'] {
   stroke-width: 10;
   stroke: #223354;
   transform: translate(5px, 5px);
-  stroke-dashoffset: 550;
-  stroke-dasharray: 450;
+  stroke-dashoffset: 440;
+  stroke-dasharray: 440;
 }
 
-.bx .percent svg circle:nth-child(1) {
-  stroke-dashoffset: 0%;
+
+  
+  
+.bx .percent svg circle:nth-child(1){
+  width: 187px;
+  height: 187px;
+  fill: none;
+  stroke-width: 10;
+  stroke: #223354;
+  transform: translate(5px, 5px);
+  stroke-dashoffset: 440;
+  stroke-dasharray: 440;
+  stroke-dashoffset: -95;
   stroke: #f3f3f3;
 }
-
-.bx .percent svg circle:nth-child(2) {
+ 
+.bx .percent circle:nth-child(2) {
+  width: 187px;
+  height: 187px;
+  fill: none;
+  stroke-width: 10;
+  transform: translate(5px, 5px);
+  stroke-dashoffset: 440;
+  stroke-dasharray: 440;
   stroke-dashoffset: 35%;
   stroke: #223354;
+  transform: rotate(-95deg);
+  transform-origin: 85px 80px;
 
 }
-
 .bx .percent .no {
   position: absolute;
   top: 0;
@@ -837,3 +859,47 @@ input[type='file'] {
   left: -20px;
 }
 
+.prg-1 {
+  /* display: flex;
+  align-items: center;    justify-content: flex-end; */
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: #223354;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.prg-2 {
+  width: 120px;
+  height: 8px;
+  background-color: #223354;
+  z-index: 99;
+}
+
+.prg-3 {
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #223354;
+  border-radius: 50%;
+  z-index: 99;
+  position: relative;
+}
+
+.prg-4 {
+  width: 120px;
+  height: 8px;
+  background-color: #E0E0E0;
+  z-index: 99;
+}
+
+.prg-5 {
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #E0E0E0;
+  border-radius: 50%;
+  z-index: 99;
+  position: relative;
+}

@@ -123,6 +123,8 @@ tr:nth-child(odd) {
     background-color: #223354;
     color: #EDF0F5;
     text-align: center;
+    border-radius: 4px;
+
 }
 
 .ba2 {
@@ -130,6 +132,7 @@ tr:nth-child(odd) {
     width: 48px;
     background-color: #ffffff;
     color: #a4a4a4;
+    border-radius: 4px;
 }
 
 .tb {
@@ -238,11 +241,15 @@ tr:nth-child(odd) {
 }
 
 /* end */
-.z1 {
-    border: 2px solid #eeeeee;
-    width: 534px;
-    height: 55px;
+.zb {
+    border: 2px solid #e4e4e4;
+  border-radius: 8px;
 
+}
+.z1{
+    border-bottom: 2px solid #eeeeee;
+    width: 534px;
+    height: 45px;
 }
 
 .z2 {
@@ -310,27 +317,4 @@ tr:nth-child(odd) {
     top: 16px;
     left: 24px;
     padding-left: 20px;
-}
-
-.ac {
-    border: 2px solid #e0e0e0;
-
-}
-
-.ch {
-    background-color: white;
-    text-align: start;
-    padding-left: 24px;
-    width: 493px;
-    height: 55px;
-}
-
-tr:first-child  {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
-
-tr:first-child th:last-child {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
 }

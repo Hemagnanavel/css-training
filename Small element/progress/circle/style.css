@@ -1,0 +1,54 @@
+.bx {
+    position: relative;
+    height: 200px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  
+  .bx .percent svg circle:nth-child(1){
+    width: 187px;
+    height: 187px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #223354;
+    transform: translate(5px, 5px);
+    stroke-dashoffset: 440;
+    stroke-dasharray: 440;
+    stroke-dashoffset: -95;
+    stroke: #f3f3f3;
+  }
+   
+  .bx .percent circle:nth-child(2) {
+    width: 187px;
+    height: 187px;
+    fill: none;
+    stroke-width: 10;
+    transform: translate(5px, 5px);
+    stroke-dashoffset: 440;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 35%;
+    stroke: #223354;
+    transform: rotate(-95deg);
+    transform-origin: 85px 80px;
+  
+  }
+  
+  
+  .bx .percent .no {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #223354;
+  }
+  
+  
