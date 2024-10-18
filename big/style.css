@@ -7,7 +7,7 @@
     font-weight: 400;
     text-align: left;
     color: #223354;
-   
+
 }
 
 .main {
@@ -29,19 +29,21 @@
     font-weight: 700;
     text-align: left;
 }
+
 .ni {
-  color:  #828282;
-font-size: 24px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
+    color: #828282;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
 
 }
+
 .b1 {
     width: 478px;
     height: 54px;
     margin-top: -30px;
-    
+
 }
 
 .r1 {
@@ -73,16 +75,33 @@ table {
     width: 100%;
 }
 
-td,
-th {
+td {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
 }
 
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+}
+
 .d {
     background-color: #223354;
     color: white;
+    padding: 25px;
+}
+
+tr:first-child th:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+tr:first-child th:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 tr:nth-child(odd) {
@@ -121,6 +140,8 @@ tr:nth-child(odd) {
     left: 928px;
     padding: 13px 29px 13px 27px;
     color: white;
+    border-radius: 8px;
+    border: none;
 }
 
 .model {
@@ -186,6 +207,7 @@ tr:nth-child(odd) {
     border: 2px solid #223354;
     height: 232px;
     width: 582px;
+    border-radius: 8px;
     background-color: #223354;
 }
 
@@ -239,6 +261,7 @@ tr:nth-child(odd) {
     background: #223354;
     width: 534px;
     height: 55px;
+    border-radius: 8px 8px 0px 0px;
 
 
 }
@@ -287,4 +310,27 @@ tr:nth-child(odd) {
     top: 16px;
     left: 24px;
     padding-left: 20px;
+}
+
+.ac {
+    border: 2px solid #e0e0e0;
+
+}
+
+.ch {
+    background-color: white;
+    text-align: start;
+    padding-left: 24px;
+    width: 493px;
+    height: 55px;
+}
+
+tr:first-child  {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+tr:first-child th:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }

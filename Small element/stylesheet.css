@@ -1,6 +1,6 @@
 * {
   font-family: Inter;
-
+ 
 }
 
 .title {
@@ -10,7 +10,7 @@
   text-align: left;
   color: #223354;
   padding-bottom: 20px;
-  margin-left: 10px;
+   margin-left: 10px;
 }
 
 .main {
@@ -23,7 +23,6 @@
   flex-direction: column;
   width: 50%;
 }
-
 
 .right {
   display: flex;
@@ -75,11 +74,9 @@ input[type='file'] {
   border: 2px solid #223354;
   margin-left: -3px;
 }
-
 .i {
   color: #223354;
 }
-
 .table {
   width: 386px;
   border: 1px solid #BDBDBD;
@@ -87,35 +84,31 @@ input[type='file'] {
   height: 325px;
   border-radius: 4px;
 }
-
 .t2 {
   width: 338px;
   border: 2px dotted #BDBDBD;
-  border-radius: 4px;
   margin: auto;
   height: 172px;
   text-align: center;
 }
-
 .upload {
   width: 338px;
   border: 1px solid #BDBDBD;
-  color: #BDBDBD;
-  border-radius: 8px;
+color: #BDBDBD;
+border-radius: 8px;
   margin: auto;
   height: 55px;
 
 }
-
-.un {
-  color: white;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 22.4px;
-  text-align: center;
+.un{
+color: white;
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 22.4px;
+text-align: center;
 
 }
-
 .input {
   width: 40%;
 
@@ -142,7 +135,6 @@ input[type='file'] {
   width: 68px;
   color: white;
   border-radius: 8px;
-  border-color: none;
 
 }
 
@@ -154,14 +146,12 @@ input[type='file'] {
   background-color: #1ab4d7;
   color: white;
   border-radius: 8px;
-  border-color: none;
 }
 
 .b3 {
   color: white;
   background-color: #27AE60;
   height: 39px;
-  border-color: none;
   width: 73px;
   border-radius: 8px;
 }
@@ -172,7 +162,6 @@ input[type='file'] {
   background-color: #2F80ED;
   color: white;
   border-radius: 8px;
-  border-color: none;
 }
 
 .b5 {
@@ -181,7 +170,7 @@ input[type='file'] {
   color: white;
   background-color: #EB5757;
   border-radius: 8px;
-  border-color: none;
+
 }
 
 .b6 {
@@ -190,7 +179,6 @@ input[type='file'] {
   background-color: #E2B93B;
   color: black;
   border-radius: 8px;
-   border-color: none;
 }
 
 .b7 {
@@ -199,7 +187,7 @@ input[type='file'] {
   background-color: #E0E0E0;
   color: black;
   border-radius: 8px;
-  border-color: none;
+
 }
 
 .b8 {
@@ -208,7 +196,7 @@ input[type='file'] {
   background-color: #333333;
   color: white;
   border-radius: 8px;
- border-color: none;}
+}
 
 .circle {
   width: 160px;
@@ -284,18 +272,17 @@ input[type='file'] {
 .tooltip {
   position: relative;
   display: inline-block;
-
+  border-bottom: 1px dotted #223354;
 }
 
 .tooltip .tooltiptext {
- width: 143px;
-  height: 36px;
-  padding: 8px 16px 8px 16px;
-  align-content: center;
-  border-radius: 10px ;
+
+  width: 148px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   bottom: 150%;
@@ -322,18 +309,17 @@ input[type='file'] {
 .tooltipl {
   position: relative;
   display: inline-block;
-
+ 
 }
 
 .tooltipl .tooltiptext {
-  width: 143px;
-  height: 36px;
-  padding: 8px 16px 8px 16px;
-  align-content: center;
-  border-radius: 10px ;
+
+  width: 130px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: -5px;
@@ -362,14 +348,13 @@ input[type='file'] {
 }
 
 .tooltipb .tooltiptext {
-  width: 143px;
-  height: 36px;
-  padding: 8px 16px 8px 16px;
-  align-content: center;
-  border-radius: 10px ;
+
+  width: 148px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: 150%;
@@ -395,18 +380,16 @@ input[type='file'] {
 .tooltipr {
   position: relative;
   display: inline-block;
-
+ 
 }
 
 .tooltipr .tooltiptext {
-  width: 143px;
-  height: 36px;
-  padding: 8px 16px 8px 16px;
-  align-content: center;
-  border-radius: 10px ;
+  width: 120px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: -5px;
@@ -423,7 +406,6 @@ input[type='file'] {
   border-style: solid;
   border-color: transparent #223354 transparent transparent;
 }
-
 .tooltipr:hover .tooltiptext {
   visibility: visible;
 }
@@ -432,13 +414,12 @@ input[type='file'] {
   margin-top: -4px;
   padding-left: 200px;
 }
-
 /* circle progres*/
 
 .bx {
   position: relative;
   height: 200px;
-
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -457,15 +438,14 @@ input[type='file'] {
 }
 
 .bx .percent svg circle:nth-child(1) {
-  stroke-dashoffset: 0%;
-  stroke: #f3f3f3;
+stroke-dashoffset: 0%;
+stroke: #f3f3f3;
 }
-
 .bx .percent svg circle:nth-child(2) {
   stroke-dashoffset: 35%;
   stroke: #223354;
-
-}
+  
+  }
 
 .bx .percent .no {
   position: absolute;
@@ -487,20 +467,20 @@ input[type='file'] {
   width: 248px;
 }
 
-.tooltipb2 {
+.tooltipb2{
   position: relative;
   display: inline-block;
-
+ 
 }
 
 .tooltipb2 .tooltiptext {
-  width: 279px;
-  height: 127px;
-  align-content: center;
-  border-radius: 10px;
+
+  width: 278px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   bottom: 150%;
@@ -527,17 +507,16 @@ input[type='file'] {
 .tooltiplb2 {
   position: relative;
   display: inline-block;
-
+ 
 }
 
 .tooltiplb2 .tooltiptext {
-  width: 279px;
-  height: 127px;
-  align-content: center;
-  border-radius: 10px;
+  width: 278px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: -5px;
@@ -562,17 +541,16 @@ input[type='file'] {
 .tooltipbb2 {
   position: relative;
   display: inline-block;
-
+ 
 }
 
 .tooltipbb2 .tooltiptext {
-  width: 279px;
-  height: 127px;
-  align-content: center;
-  border-radius: 10px;
+  width: 278px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: 150%;
@@ -602,13 +580,12 @@ input[type='file'] {
 }
 
 .tooltiprb2 .tooltiptext {
-  width: 279px;
-  height: 127px;
-  align-content: center;
-  border-radius: 10px;
+  width: 278px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: -5px;
@@ -625,7 +602,6 @@ input[type='file'] {
   border-style: solid;
   border-color: transparent #223354 transparent transparent;
 }
-
 .tooltiprb2:hover .tooltiptext {
   visibility: visible;
 }
@@ -634,18 +610,17 @@ input[type='file'] {
 .tooltiplc2 {
   position: relative;
   display: inline-block;
-
+ 
 }
 
 .tooltiplc2 .tooltiptext {
   width: 90px;
-  height: 55px;
-  padding: 8px 16px 8px 16px;
-  border-radius: 10px;
+  
   background-color: #223354;
   color: #fff;
   text-align: center;
-  align-content: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: -5px;
@@ -675,14 +650,13 @@ input[type='file'] {
 
 .tooltipbc2 .tooltiptext {
   width: 90px;
-  height: 55px;
-  padding: 8px 16px 8px 16px;
-  border-radius: 10px;
+ 
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
-  align-content: center;
   z-index: 1;
   top: 150%;
   left: 50%;
@@ -712,15 +686,11 @@ input[type='file'] {
 
 .tooltiprc2 .tooltiptext {
   width: 90px;
-  height: 55px;
-  align-content: center;
-  padding: 8px 16px 8px 16px;
-  border-radius: 10px;
   background-color: #223354;
   color: #fff;
   text-align: center;
-  justify-content: center;
-
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   top: -5px;
@@ -737,25 +707,22 @@ input[type='file'] {
   border-style: solid;
   border-color: transparent #223354 transparent transparent;
 }
-
 .tooltiprc2:hover .tooltiptext {
   visibility: visible;
 }
-
-.tooltipc2 {
+.tooltipc2{
   position: relative;
   display: inline-block;
 
 }
 
 .tooltipc2 .tooltiptext {
-  width: 130px;
-  height: 66px;
-  align-content: center;
-  border-radius: 10px;
+  width: 90px;
   background-color: #223354;
   color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
   position: absolute;
   z-index: 1;
   bottom: 150%;
@@ -777,63 +744,60 @@ input[type='file'] {
 .tooltipc2:hover .tooltiptext {
   visibility: visible;
 }
-
 /* semi progress bar */
 
-.progress-bar-01,
-.progress-bar-02 {
-  width: 155px;
-  height: 155px;
-  border-radius: 50%;
-  transform: translate(15px, 15px);
-  background-color: white;
-  color: #223354;
-  z-index: 0;
-  position: relative;
+.progress-bar-01,.progress-bar-02 {
+  width: 155px;    height: 155px;
+  border-radius: 50%;    transform: translate(15px, 15px);
+  background-color: white;    color: #223354;
+  z-index: 0;    position: relative;
 }
 
-.semi-progress-bar {
-  border-top-left-radius: 100% 200%;
-  border-top-right-radius: 100% 200%;
-  background-image: conic-gradient(from 82deg, #E0E0E0 120deg, #223354 83deg);
-  width: 187px;
-  height: 98px;
+.semi-progress-bar {    border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;    background-image: conic-gradient(from 82deg, #E0E0E0 120deg, #223354 83deg);
+  width: 187px;    height: 98px;
 }
-
-.progress-bar-02 h4 {
-  position: absolute;
-  font-size: 20px;
-  font-weight: 600;
-  color: #333333;
-  top: 10px;
-  left: 55px;
-}
-
+.progress-bar-02 h4 {    position: absolute;
+  font-size: 20px;    font-weight: 600;
+  color: #333333;    top: 10px;
+  left: 55px;}
 .progress-bar-02 p {
-  position: absolute;
-  font-size: 14px;
-  font-weight: 400;
-  color: #333333;
-  top: 50px;
-  left: 25px;
+  position: absolute;    font-size: 14px;
+  font-weight: 400;    color: #333333;
+  top: 50px;    left: 25px;
 }
 
 /* multi-step progress */
-.progress-prg {
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  z-index: 99;
-  margin-top: 30px;
+.progress-prg {    display: flex;
+  align-items: center;    box-sizing: border-box;
+  z-index: 99;    margin-top: 30px;
 }
-
-.progress-prg p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #223354;
-  width: 94px;
-  position: absolute;
-  top: -40px;
-  left: -20px;
+.progress-prg p {    font-size: 14px;
+  font-weight: 400;    color: #223354 ;
+  width: 94px;    position: absolute;
+  top: -40px;    left: -20px;
 }
-
+.prg-1 {    /* display: flex;
+  align-items: center;    justify-content: flex-end; */
+  position: relative;    width: 24px;
+  height: 24px;    background-color: #223354;
+  border-radius: 50%;    z-index: 99;
+}
+.prg-2 {    width: 120px;
+  height: 8px;    background-color: #223354;
+  z-index: 99;}
+.prg-3 {
+  box-sizing: border-box;    width: 24px;
+  height: 24px;    border: 2px solid #223354;
+  border-radius: 50%;
+  z-index: 99;    position: relative;
+}
+.prg-4 {    width: 120px;
+  height: 8px;    background-color: #E0E0E0;
+  z-index: 99;}
+.prg-5 {
+  box-sizing: border-box;    width: 24px;
+  height: 24px;    border: 2px solid #E0E0E0;
+  border-radius: 50%;
+  z-index: 99;    position: relative;
+}
