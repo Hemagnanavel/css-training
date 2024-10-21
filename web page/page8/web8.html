@@ -39,15 +39,17 @@
         <div class="right" style="width: 80%;">
             <div style="display: flex; flex-direction: row;">
                 <div class="rl">
-                    <p style="color:#828282; padding-left: 10px; ">Pages > <span style="color: #223354;"><b>Invoice
+                    <p style="color:#828282; padding-left: 10px; ">Pages <img
+                            style="padding-left: 8px; padding-right: 10px;" src="Line.png" alt=""> <span
+                            style="color: #223354;"><b>Invoice
                                 Generator</b> </span> </p>
                 </div>
                 <div class="rr">
-                    <div style="padding-top: 10px; padding-right: 20px; ">
+                    <div style="padding-top: 10px; padding-top: 15px; ">
                         <img src="question.png" />
                     </div>
 
-                    <p style=" padding-right: 10px;">Need help?</p>
+                    <p style=" padding-right: 10px; padding-left: 8px;">Need help?</p>
                     <hr>
                     <div style="padding-left: 20px;">
                         <img src="head.png">
@@ -57,16 +59,15 @@
             <div class="container">
                 <div style="display: flex; flex-direction: column;  width: 33%;">
                     <p class="text">Invoice Name</p>
-                    <div class="box">
-                        <p style="padding-left: 25px;">Input Text</p>
-                    </div>
+                    <input type="text" class="box" placeholder="Input text">
                     <p class="text" style="padding-top: 20px;"> Due Date</p>
-                    <div class="box">
-                        <p style="padding-left: 25px;">Input Text</p>
-                    </div>
+                    <input type="text" class="box" placeholder="Input text">
+
+
                     <div style="padding-top: 70px;  ">
-                        <div class="invoicebox">
-                            <p style="padding-left: 20px;">Who is this invoice from? (required)</p>
+                        <div>
+                            <textarea class="invoicebox" placeholder="Who is this invoice from? (required)"></textarea>
+
 
                         </div>
 
@@ -74,40 +75,36 @@
                 </div>
                 <div style="display: flex; flex-direction: column; padding-left: 20px; width: 33%;">
                     <p class="text">Invoice number</p>
-                    <div class="box">
-                        <p style="padding-left: 25px;">Input Text</p>
-                    </div>
+                    <input type="text" class="box" placeholder="Input text">
                     <p class="text" style="padding-top: 20px;"> PO Number</p>
-                    <div class="box">
-                        <p style="padding-left: 25px;">Input Text</p>
-                    </div>
+                    <input type="text" class="box" placeholder="Input text">
 
                     <div style="padding-top: 25px;">
                         <p class="text">Bill to</p>
-                        <div class="invoicebox">
-                            <p style="padding-left: 20px;">Who is this invoice from? (required)</p>
-
+                        <div>
+                            <textarea class="invoicebox" 
+                                placeholder="Who is this invoice from? (required)">
+</textarea>
                         </div>
 
                     </div>
                 </div>
                 <div style="display: flex; flex-direction: column; width: 33%; padding-left: 20px;">
                     <p class="text">Date</p>
-                    <div class="box">
-                        <p style="padding-left: 25px;">Pick a date</p>
-                    </div>
+                    <input type="text" class="box" placeholder="Pick a date">
                     <div style="position: absolute; padding-left: 190px;">
                         <img style="padding-top: 70px; padding-left: 75px;" src="Right 24px.png" alt="">
                     </div>
                     <p class="text" style="padding-top: 20px;"> Payment Terms</p>
-                    <div class="box">
-                        <p style="padding-left: 25px;">Input Text</p>
-                    </div>
+                    <input type="text" class="box" placeholder="Input text">
 
                     <div style="padding-top: 25px;">
                         <p class="text">Ship to</p>
-                        <div class="invoicebox">
-                            <p style="padding-left: 20px;">(optional)</p>
+                        <div>
+                            <textarea class="invoicebox" 
+                            placeholder="(optional)">
+</textarea>
+
 
                         </div>
 
@@ -117,7 +114,7 @@
             <!--table-->
             <div style="width: 90%; padding-left: 50px;">
                 <h5 class="ht5">Table Name</h5>
-                <table >
+                <table>
                     <tr>
                         <th>No</th>
                         <th>Item Name</th>
@@ -128,124 +125,151 @@
                     <tr>
                         <td>1</td>
                         <td style="padding-left: 30px;">
-                            <div class="tbox">Loreal professional shampoo (250ml)</div></td>
-                        <td> <div class="tbox2">1</div></td>
-                        <td> <div class="tbox3">
-                            <div style="display: flex;">
-                                <div style="padding-left: 20px;">
-                                    500 
+                            <div class="tbox">Loreal professional shampoo (250ml)</div>
+                        </td>
+                        <td>
+                            <div class="tbox2">1</div>
+                        </td>
+                        <td>
+                            <div class="tbox3">
+                                <div style="display: flex;">
+                                    <div style="padding-left: 20px;">
+                                        500
+                                    </div>
+                                    <div style="padding-left: 30px;"><img style src="ic_baseline-currency-rupee.png"
+                                            alt=""></div>
                                 </div>
-                            <div style="padding-left: 30px;" ><img style src="ic_baseline-currency-rupee.png" alt=""></div>
                             </div>
-                </div></td>
-                        <td> <div class="tbox3">
-                            <div style="display: flex;">
-                                <div style="padding-left: 20px;">500</div> 
-                        <div style="padding-left: 30px;"><img style src="ic_baseline-currency-rupee.png" alt=""></div>
-                            </div></div></td>
+                        </td>
+                        <td>
+                            <div class="tbox3">
+                                <div style="display: flex;">
+                                    <div style="padding-left: 20px;">500</div>
+                                    <div style="padding-left: 30px;"><img style src="ic_baseline-currency-rupee.png"
+                                            alt=""></div>
+                                </div>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td style="padding-left: 30px;" >
-                            <div class="tbox">Description of service or product</div></td>
-                        <td> <div class="tbox2">1</div></td>
-                        <td> <div class="tbox3"><div style="display: flex;">
-                            <div style="padding-left: 20px;">
-                                0
-                            </div>
-                        <div style="padding-left: 30px;"><img style src="ic_baseline-currency-rupee.png" alt=""></div>
-                        </div></div></td>
-                        <td> <div class="tbox3">
-                            <div style="display: flex;">
-                                <div style="padding-left: 20px;">
-                                    0 
+                        <td style="padding-left: 30px;">
+                            <div class="tbox">Description of service or product</div>
+                        </td>
+                        <td>
+                            <div class="tbox2">1</div>
+                        </td>
+                        <td>
+                            <div class="tbox3">
+                                <div style="display: flex;">
+                                    <div style="padding-left: 20px;">
+                                        0
+                                    </div>
+                                    <div style="padding-left: 30px;"><img style src="ic_baseline-currency-rupee.png"
+                                            alt=""></div>
                                 </div>
-                            <div style="padding-left: 30px;">
-                                <img style src="ic_baseline-currency-rupee.png" alt="">
                             </div>
+                        </td>
+                        <td>
+                            <div class="tbox3">
+                                <div style="display: flex;">
+                                    <div style="padding-left: 20px;">
+                                        0
+                                    </div>
+                                    <div style="padding-left: 30px;">
+                                        <img style src="ic_baseline-currency-rupee.png" alt="">
+                                    </div>
+                                </div>
                             </div>
-                        </div></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: end;" colspan="8"><button disabled class="addbutton">Add</button></td>
+                        </td>
                     </tr>
                 </table>
-               <div  style="padding-top: 32px; ">
-                <div class="invbox" style="display: flex; flex-direction: row;" >
+                <div style="float: right; padding-top: 20px;">
+
+                    <button disabled class="addbutton">Add</button>
+                </div>
+            </div>
+            <div style="padding-top: 100px; padding-right: 40px; padding-bottom: 30px;">
+                <div class="invbox" style="display: flex; flex-direction: row;">
                     <div>
-                        <img  style="padding-left: 130px; padding-top: 88px;" src="INVOICE GEN.png" alt="">
+                        <img style="padding-left: 130px; padding-top: 88px;" src="INVOICE GEN.png" alt="">
                     </div>
-                   <div style="display: flex; flex-direction: column;">
-                    <div style="display: flex; flex-direction: row; padding-top: 24px; padding-left: 150px;"> 
-                        <div >
-                            <p>Sub total</p>
-                        </div>
-                        <div style="padding-left: 50px; display: flex; padding-top: 15px;"><div style="padding-left: 20px;">500</div> 
-                    <div style="padding-left: 30px;"><img src="ic_baseline-currency-rupee.png" alt=""></div></div>
-                    </div>
-                    <div style="display: flex; flex-direction: row; padding-left: 150px;">
-                        <div>
-                          <p>  Discount</p>
-                        </div>
-                  <div style="padding-left: 30px; text-align: center;">
-                    <div class="tbox3">
-                      <div style="display: flex; ">
-                        <div style="padding-left: 20px;">
-                            20 
-                        </div>
-
-                        <div style="padding-left: 30px;"><img src="prime_percentage.png" alt=""></div>
-                      </div>
-                    </div>
-                  </div>
-                    </div>
-
-                    <div style="display: flex; flex-direction: row; padding-left: 150px;">
-                        <div>
-                        <p>    Sub total</p>
-                        </div>
-                       <div style=" display: flex;">
-                        <div style="padding-left: 50px;">
-                            <div style="display: flex; padding-top: 20px;">
-                                <div style="padding-left: 20px;">
-                                    500
-                                </div> 
-                            <div style="padding-left: 30px;"><img src="ic_baseline-currency-rupee.png" alt=""></div>
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="display: flex; flex-direction: row; padding-top: 24px; padding-left: 150px;">
+                            <div>
+                                <p>Sub total</p>
                             </div>
-                       </div></div>
+                            <div style="padding-left: 50px; display: flex; padding-top: 15px;">
+                                <div style="padding-left: 20px;">500</div>
+                                <div style="padding-left: 30px;"><img src="ic_baseline-currency-rupee.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-direction: row; padding-left: 150px;">
+                            <div>
+                                <p> Discount</p>
+                            </div>
+                            <div style="padding-left: 30px; text-align: center;">
+                                <div class="tbox3">
+                                    <div style="display: flex; ">
+                                        <div style="padding-left: 20px;">
+                                            20
+                                        </div>
+
+                                        <div style="padding-left: 30px;"><img src="prime_percentage.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: row; padding-left: 150px;">
+                            <div>
+                                <p> Sub total</p>
+                            </div>
+                            <div style=" display: flex;">
+                                <div style="padding-left: 50px;">
+                                    <div style="display: flex; padding-top: 20px;">
+                                        <div style="padding-left: 20px;">
+                                            500
+                                        </div>
+                                        <div style="padding-left: 30px;"><img src="ic_baseline-currency-rupee.png"
+                                                alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: row;">
+                    <div style="width: 50%; padding-top: 30px; padding-left: 20px;">
+                        <p class="p">Notes</p>
+
+                        <div >
+                            <textarea class="note" placeholder="Notes - any relevant information not already covered"></textarea>
+                    
+                        </div>
+                    </div>
+                    <div style="width: 50%; padding-top: 30px; padding-left: 38px;">
+                        <p class="p">Notes</p>
+                        <div >
+                            <textarea class="note" placeholder="Notes - any relevant information not already covered"></textarea>
+                    
+
+                        </div>
                     </div>
 
 
-                   </div>
                 </div>
-               <div style="display: flex; flex-direction: row;">
-                <div style="width: 50%; padding-top: 30px; padding-left: 20px;">
-                    <p>Notes</p>
-                  
-                    <div class="note">
-                        <p style="text-align: center;">Notes - any relevant information not already covered
-                        </p>
-                   </div>
-                </div>
-                <div style="width: 50%; padding-top: 30px; padding-left: 38px;">
-                    <p >Notes</p>
-                    <div class="note">
-                       <p style="text-align: center;">Notes - any relevant information not already covered</p>
-
-                    </div>
-                </div>
-               
-            
-               </div>
-               
-               </div>
 
             </div>
 
-
-
-
         </div>
+
+
+
+
+    </div>
 
 
     </div>

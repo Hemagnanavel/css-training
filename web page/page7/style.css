@@ -97,6 +97,18 @@ body {
     border: 2px solid #dbdcdc;
     color: #ababac;
     border-radius: 8px;
+    background: transparent;
+   
+}
+
+input[type="text"]::placeholder {
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-left: 20px;
+
+
 }
 
 hr{
@@ -149,7 +161,7 @@ hr{
 
 .loanemi {
     width: 33.33%;
-    padding-left: 20px;
+    gap: 20px;
 }
 
 .calb {

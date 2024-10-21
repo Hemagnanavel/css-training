@@ -65,7 +65,7 @@ body {
 }
 
 .right {
-    
+    background: #FFFFFF;
     height: 80px;
     width: 1350px;
 }
@@ -73,7 +73,7 @@ body {
 .rr {
     display: flex;
     flex-direction: row;
-    padding-left: 340px;
+    padding-left: 430px;
     padding-top: 10px;
 
 }
@@ -147,8 +147,8 @@ body {
 
 .loanemi {
     width: 33.33%;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
+    
 }
 
 .calb {
@@ -173,7 +173,7 @@ input[type="radio"] {
 }
 .loan {
     background: #FFFFFF;
-    width: 278px;
+    width: 300px;
     height: 340px;
     border-radius: 5px;
     float: left;
