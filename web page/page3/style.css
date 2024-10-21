@@ -1,6 +1,11 @@
 body {
     font-family: Inter;
-    background-color: #f4f5f6;
+    background-color:#2233540D;
+    margin: 0;
+}
+.main{
+    display:flex;
+    flex-direction: row;
 }
 
 .left {
@@ -39,6 +44,10 @@ body {
 .emi {
     padding-left: 20px;
 }
+.ht{
+    height: 40px;
+    border:1px solid #ebebeb;
+}
 
 .ds {
     font: inter;
@@ -49,10 +58,9 @@ body {
     padding: 20px;
 }
 
-.p {
-    color: #515151;
+.b{
+    color: black;
 }
-
 .p1 {
     line-height: 50px;
     padding-left: 20px;
@@ -61,7 +69,7 @@ body {
 .right {
     background: #FFFFFF;
     height: 80px;
-    width: 1350px;
+    width: 100%;
 }
 
 .rr {
@@ -90,6 +98,7 @@ body {
     width: 320px;
     border: 2px solid #dbdcdc;
     color: #ababac;
+    border-radius: 4px;
 }
 
 .title {
@@ -133,7 +142,7 @@ body {
 .interestrate {
     width: 33.33%;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
 
 }
 
@@ -155,7 +164,7 @@ body {
     display: flex;
     flex-direction: row;
     padding-left: 20px;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 input[type="radio"] {
@@ -169,12 +178,10 @@ input[type="radio"] {
     background: #FFFFFF;
     width: 278px;
     height: 340px;
-    gap: 0px;
-    opacity: 0px;
+    border-radius: 5px;
     float: left;
     padding: 20px;
     padding-left: 30px;
-
 }
 
 .hr {

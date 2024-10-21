@@ -1,17 +1,22 @@
 body {
     font-family: Inter;
-    background-color: #f4f5f6;
+    background-color: #2233540D;;
+    margin: 0;
 }
 
 .left {
     background: #FFFFFF;
     width: 250px;
-    height: 700px;
+    height: 900px;
     gap: 0px;
     opacity: 0px;
     float: left;
     padding: 20px;
     padding-left: 30px;
+}
+.main{
+    display:flex;
+    flex-direction: row;
 }
 
 .logo {
@@ -51,14 +56,16 @@ body {
 .p {
     color :#515151;
 }
-
+.b {
+    color: black;
+}
 .p1 {
     line-height: 50px;
     padding-left: 20px;
 }
 
 .right {
-    background: #FFFFFF;
+    
     height: 80px;
     width: 1350px;
 }
@@ -66,11 +73,14 @@ body {
 .rr {
     display: flex;
     flex-direction: row;
-    padding-left: 360px;
+    padding-left: 340px;
     padding-top: 10px;
 
 }
-
+.ht{
+    height: 40px;
+    border:1px solid #ebebeb;
+}
 .rl {
     padding-top: 10px;
     height: 100px;
@@ -89,6 +99,7 @@ body {
     width: 320px;
     border: 2px solid #dbdcdc;
     color: #ababac;
+    border-radius: 8px;
 }
 
 .title {
@@ -151,7 +162,7 @@ body {
     display: flex;
     flex-direction: row;
     padding-left: 20px; 
-    padding-top: 100px;
+    padding-top: 60px;
 }
 input[type="radio"] {
     border-radius: 5px;
@@ -163,8 +174,7 @@ input[type="radio"] {
     background: #FFFFFF;
     width: 278px;
     height: 340px;
-    gap: 0px;
-    opacity: 0px;
+    border-radius: 5px;
     float: left;
     padding: 20px;
     padding-left: 30px;
@@ -179,7 +189,7 @@ input[type="radio"] {
     width: 340px;
     height: 348px;
     float: left;
-    padding: 20px;
+   border-radius: 5px;
     padding-left: 30px;
 }
 .select {

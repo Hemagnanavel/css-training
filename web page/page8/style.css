@@ -1,0 +1,234 @@
+body {
+    font-family: Inter;
+    background-color: #2233540D;
+    ;
+    margin: 0;
+}
+
+.left {
+    background: #FFFFFF;
+    width: 250px;
+    height: 700px;
+    gap: 0px;
+    opacity: 0px;
+    float: left;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 75.05px;
+    height: 59.21px;
+    left: 67.21px;
+    border-radius: 2px;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+
+.vector {
+    width: 13.94px;
+    height: 20px;
+    top: 2px;
+    left: 5px;
+    border: 1px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.emi {
+    padding-left: 20px;
+}
+
+.ds {
+    font: inter;
+    font-weight: 500;
+    size: 14px;
+    line-height: 50px;
+    color: #1AB4D7;
+    padding: 20px;
+}
+
+
+.p1 {
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+p {
+    color: #828282;
+}
+
+.right {
+    background: #FFFFFF;
+    height: 80px;
+    width: 1350px;
+}
+
+.text {
+    color: #BDBDBD;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+
+
+}
+
+.rr {
+    display: flex;
+    flex-direction: row;
+    padding-left: 360px;
+    padding-top: 10px;
+
+}
+
+.rl {
+    padding-top: 10px;
+    height: 100px;
+    width: 500px;
+}
+
+.select {
+    background-color: #edf9fc;
+    width: 208px;
+    height: 58px;
+    border-radius: 8px;
+    float: left;
+}
+
+hr {
+    height: 40px;
+    border: 1px solid #ebebeb;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.box {
+    height: 56px;
+    width: 320px;
+    border: 2px solid #dbdcdc;
+    color: #ababac;
+    border-radius: 8px;
+}
+
+.invoicebox {
+    width: 320px;
+    height: 268px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    opacity: 0px;
+
+}
+
+.ht5 {
+
+    color: #223354;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    height: 64px;
+    border-radius: 4px;
+    background-color: #223354;
+}
+
+tr:first-child th:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+tr:first-child th:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+tr:nth-child(odd) {
+    background-color: #eceded;
+}
+
+.addbutton {
+    width: 88px;
+    height: 49px;
+    padding: 13px 29px 13px 27px;
+
+    border-radius: 8px;
+    color: white;
+    background: #1AB4D7;
+}
+
+.tbox {
+    width: 442px;
+    height: 55px;
+    top: 4px;
+    left: 89px;
+    border: 2px solid #dadbdb;
+    align-content: center;
+
+}
+
+.tbox2 {
+    width: 66px;
+    height: 55px;
+    top: 4px;
+    left: 89px;
+    border: 2px solid #dadbdb;
+    align-content: center;
+}
+
+.tbox3 {
+    width: 124px;
+    height: 55px;
+    top: 4px;
+    left: 89px;
+    border: 2px solid #dadbdb;
+    align-content: center;
+
+}
+
+.invbox {
+    width: 104%;
+    height: 220px;
+    background-color: #FFFFFF;
+}
+.note{
+    width: 450px;
+height: 118px;
+
+gap: 10px;
+border-radius: 4px ;
+border: 1px solid #E0E0E0;
+
+
+}

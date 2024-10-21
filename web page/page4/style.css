@@ -1,6 +1,7 @@
 body {
     font-family: Inter;
-    background-color: #f4f5f6;
+    background-color:#2233540D;;
+    margin: 0;
 }
 
 .left {
@@ -12,6 +13,10 @@ body {
     float: left;
     padding: 20px;
     padding-left: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
 }
 
 .logo {
@@ -29,10 +34,8 @@ body {
 .vector {
     width: 13.94px;
     height: 20px;
-    top: 2px;
-    left: 5px;
     border: 1px;
-    padding: 5px;
+  padding-top: 10px;
     padding-left: 20px;
 }
 
@@ -44,7 +47,7 @@ body {
     font: inter;
     font-weight: 500;
     size: 14px;
-    line-height: 50px;
+    line-height: 20px;
     color: #1AB4D7;
     padding: 20px;
 }
@@ -67,11 +70,18 @@ body {
 .rr {
     display: flex;
     flex-direction: row;
-    padding-left: 360px;
+    padding-left: 310px;
     padding-top: 10px;
 
 }
+hr{
+    border: 1px solid #ebebeb;
+}
 
+.ht{
+    height: 40px;
+    border:1px solid #ebebeb;
+}
 .rl {
     padding-top: 10px;
     height: 100px;
