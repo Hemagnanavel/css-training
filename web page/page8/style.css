@@ -1,7 +1,6 @@
 body {
     font-family: Inter;
     background-color: #2233540D;
-    ;
     margin: 0;
 }
 
@@ -182,7 +181,7 @@ tr:nth-child(odd) {
     width: 88px;
     height: 49px;
     padding: 13px 29px 13px 27px;
-
+    border: none;
     border-radius: 8px;
     color: white;
     background: #1AB4D7;
@@ -195,6 +194,7 @@ tr:nth-child(odd) {
     left: 89px;
     border: 2px solid #dadbdb;
     align-content: center;
+    border-radius: 4px;
 
 }
 
@@ -205,6 +205,7 @@ tr:nth-child(odd) {
     left: 89px;
     border: 2px solid #dadbdb;
     align-content: center;
+    border-radius: 4px;
 }
 
 .tbox3 {
@@ -214,6 +215,7 @@ tr:nth-child(odd) {
     left: 89px;
     border: 2px solid #dadbdb;
     align-content: center;
+    border-radius: 4px;
 
 }
 
@@ -222,13 +224,14 @@ tr:nth-child(odd) {
     height: 220px;
     background-color: #FFFFFF;
 }
-.note{
-    width: 450px;
-height: 118px;
 
-gap: 10px;
-border-radius: 4px ;
-border: 1px solid #E0E0E0;
+.note {
+    width: 450px;
+    height: 118px;
+
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
 
 
 }
