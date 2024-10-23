@@ -23,60 +23,57 @@
                 <div style="display: flex; flex-direction: row; width: 250px;
                 height: 56px;">
                     <div style="padding-top: 20px; ">
-                        <img src="Vector.png" alt="vector" class="vector">
+
+                        <div class="select">
+                            <img src="Vector.png" style="padding-left: 24px;" alt="emi" class="emi"><span
+                                class="ds">Dashboard</span><br>
+                        </div>
                     </div>
-                    <div class="ds" style="padding-top: 10px;">Dashboard</div>
                 </div>
                 <div style="display: flex; flex-direction: row; width: 250px;">
                     <div style="padding-top: 26px; ">
-                        <img src="emi.png" alt="emi" class="emi">
+                        <img style="padding-left: 24px;" src="emi.png" alt="emi" class="emi">
                     </div>
                     <div class="p1" style="padding-top: 10px;">EMI Calc</div>
                 </div>
                 <div style="display: flex; flex-direction: row; width: 250px;">
                     <div style="padding-top: 26px; ">
-                        <img src="store.png" alt="store" class="emi">
+                        <img style="padding-left: 24px;" src="store.png" alt="store" class="emi">
                     </div>
                     <div class="p1" style="padding-top: 10px;">My Store</div>
                 </div>
 
             </div>
-            <div style="padding-top: 300px;">
+            <div class="logout">
                 <img src="logout.png" alt="logout" class="emi">
-            <p1 class="p2" style="line-height: 700px;">Logout</p1>
+                <p1 class="p2" >Logout</p1>
             </div>
         </div>
         <!--right-->
         <div class="div2">
             <div class="header">
                 <div class="left">
-                    <p style="position: absolute; left: 350px;">Dashboard</p>
+                    <p>Dashboard</p>
                 </div>
-                <div class="right" style="padding-top: 12px; padding-left: 793px;">
-                   
-                    <div>
-                        <button disabled class="box"><img src="cs.png" /> Create Slot</button>
-                    </div>
-                    <img src="Line.png" alt="">
-                    <div style=" padding-left: 5px; padding-right: 10px; padding-top: 10px;">
-                        <box class="c1">w</box>
-                    </div>
-                   
+                <div class="right">
+                    <button disabled class="box"><img style="vertical-align: middle;" src="cs.png" /> Create Slot</button>
+                    <hr>
+                    <button class="c1">W</button>
                 </div>
             </div>
             <div style="display: flex; flex-direction: row;">
-                <div class="input-container" style="padding-left: 100px; padding-top: 100px;">
+                <div class="input-container">
                     <div style="display: flex; flex-direction: row;">
                         <div class="input" style="padding-left: 150px; ">
                             <p class="tt">Label Sample</p>
-                            <input class="label" type="text" value="Input text">
+                            <input class="label" type="text" placeholder="Input text">
                         </div>
                         <div class="input" style="padding-left: 59px;">
                             <p class="tt">Label Sample</p>
-                            <input class="label" type="text" value="Input text">
+                            <input class="label" type="text" placeholder="Input text">
                         </div>
                     </div>
-                    <div style="display: flex; padding-top: 70px;">
+                    <div style="display: flex; margin-bottom: 130px;">
                         <div class="input" style="padding-top: 40px; padding-left: 70px;">
                             <div class="table">
                                 <p class="tt" style="padding-left: 20px;">Upload Logo</p>
@@ -87,7 +84,7 @@
                                     </div>
                                     <p style="padding-left: 100px; padding-top: 100px;">Drag n Drop here <br> <span
                                             style="padding-left: 40px;"> or</span><br><span
-                                            style="padding-left: 20px;">Browse</span></p>
+                                            style="padding-left: 20px; color:  #223354;"> <b>Browse</b></span></p>
 
                                 </div>
                                 <div style="padding-left: 20px; padding-top: 20px;">
@@ -101,11 +98,12 @@
                         <!--right side-->
                         <div class="input" style="padding-left: 99px;">
                             <p class="tt">Label Sample</p>
-                            <div class="t3">
-                                <div style=" padding-left: 30px; padding-top: 20px;">
-                                    <p> Who is this<br>invoice from?<br>(required)</p>
-                                </div>
+                            <div>
+                                <textarea class="t3" placeholder="Who is this invoice from?(required)"></textarea>
+    
+    
                             </div>
+                           
                         </div>
                     </div>
 

@@ -1,20 +1,18 @@
 body {
     font-family: Inter;
-    background-color:#2233540D;;
+    background-color: #2233540D;
+    ;
     margin: 0;
 }
 
 .left {
     background: #FFFFFF;
-    width: 250px;
     height: 700px;
-    gap: 0px;
-    opacity: 0px;
     float: left;
-    padding: 20px;
-    padding-left: 30px;
+    padding-left: 16px;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: row;
 }
@@ -35,7 +33,7 @@ body {
     width: 13.94px;
     height: 20px;
     border: 1px;
-  padding-top: 10px;
+    padding-top: 10px;
     padding-left: 20px;
 }
 
@@ -52,8 +50,20 @@ body {
     padding: 20px;
 }
 
-.p {
-    color: #515151;
+.select {
+    background-color: #edf9fc;
+    width: 195px;
+    height: 58px;
+    border-radius: 8px;
+}
+
+.text {
+    color: #223354;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+
 }
 
 .p1 {
@@ -64,70 +74,31 @@ body {
 .right {
     background: #FFFFFF;
     height: 80px;
-    width: 1350px;
+    width: 100%;
 }
 
 .rr {
     display: flex;
     flex-direction: row;
-    padding-left: 310px;
-    padding-top: 10px;
+    padding-left: 300px;
+    padding-top: 15px;
+    width: 27%;
 
 }
-hr{
-    border: 1px solid #ebebeb;
-}
 
-.ht{
-    height: 40px;
-    border:1px solid #ebebeb;
-}
 .rl {
     padding-top: 10px;
     height: 100px;
-    width: 500px;
+    width: 73%;
 }
 
-.il {
-    border: 2px solid #ffffff;
-    box-shadow: #ffffff;
-    height: 768px;
-    width: 240px;
+.ht {
+    height: 32px;
+    border: 1px solid #ebebeb;
 }
 
-.box {
-    height: 56px;
-    width: 320px;
-    border: 2px solid #dbdcdc;
-    color: #ababac;
-}
-
-.title {
-    color: black;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22.4px;
-    text-align: left;
-
-}
-
-.title1 {
-    color: black;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 0;
-    text-align: left;
-
-}
-
-.ptext {
-    color: #cfcfcf;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.6px;
-    text-align: left;
-
+.rl {
+    padding-top: 10px;
+    height: 100px;
+    width: 80%;
 }

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Emi Personalfill</title>
+    <title>Emi personal fill</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,80 +13,87 @@
 
 <body>
     <div class="main" style="width: 100%;">
-              <!--left side dashboard-->
-              <div class="left" style="width: 20%; ">
-                <div class="i" style="display: flex; flex-direction: column;">
-                    <div style="padding-left: 50px; padding-top: 20px;">
-                        <img src="logo.png" alt="logo" class="logo" /><br>
-                    </div>
-                    <div style="display: flex;">
-                        <div style="padding-top: 10px;">
-                            <img src="Vector.png" alt="vector" class="vector">
-                        </div>
-                        <div class="p1">Dashboard</div><br>
-                    </div>
-                    <div class="select">
-                        <img src="emi.png" alt="emi" class="emi"><span class="ds">EMI Calc</span><br>
-                    </div>
-                    <div>
-                        <img src="store.png" alt="store" class="emi"><span class="p1">Invoice Generator</span><br>
-                    </div>
-    
+        <div class="left" style="width: 17%; ">
+            <div class="i" style="display: flex; flex-direction: column;">
+                <div style="padding-left: 50px; padding-top: 20px;">
+                    <img src="logo.png" alt="logo" class="logo" /><br>
                 </div>
-    
+                <div style="display: flex;">
+                    <div style="padding-top: 10px;">
+                        <img src="Vector.png" alt="vector" class="vector">
+                    </div>
+                    <div class="p1">Dashboard</div><br>
+                </div>
+                <div class="select">
+                    <img src="emi.png" alt="emi" class="emi"><span class="ds">EMI Calc</span><br>
+                </div>
+                <div>
+                    <img src="store.png" alt="store" class="emi"><span class="p1">Invoice Generator</span><br>
+                </div>
+
             </div>
-        <!--right side top-->
-        <div class="right" style="width: 100%;">
-            <div style="display: flex; flex-direction: row;">
+
+        </div>
+        <!--right-->
+        <div class="right" style="width: 83%;">
+            <div style="display: flex; flex-direction: row; width: 100%;">
                 <div class="rl">
-                    <p style="color:#828282; ">Pages <img style="padding-left: 8px; padding-right: 10px;" src="Line.png" alt=""> <span style="color: #223354;"><b>EMI Calculator</b> </span> </p>
+                    <p style="color:#828282; padding-left: 20px; font-weight: 500; font-size: 16px;">Pages <img
+                            style="padding-left: 8px; padding-right: 5px;" src="Line.png">
+                        <span style=" font-weight: 500; color: #223354;">EMI Calculator </span>
+                    </p>
                 </div>
                 <div class="rr">
-                    <div style="padding-top: 13px; ">
+                    <div style="padding-top: 15px; ">
                         <img src="question.png" />
                     </div>
 
-                    <p style="padding-left: 20px; padding-right: 10px;">Need help?</p>
+                    <p style="padding-left: 8px;">Need help?</p>
                     <hr class="ht">
-                    <div style="padding-left: 20px;">
-                        <img src="head.png">
+                    <div style="margin-top: 5px; margin-right: 18px;">
+                        <img src="head.png" width="40px" height="40px">
                     </div>
                 </div>
             </div>
-            <!--tab-->
-            <div class="tab" style="padding-left: 10px;">
-                <div class="tabs">
-                    <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
+
+            <div class="tab" style="padding-left: 20px;">
+                <div class="tabs" >
+                    <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" >
                     <label for="tab1" class="tabs__label">Home Loan</label>
 
-                    <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
+                    <input type="radio" class="tabs__radio" name="tabs-example" id="tab2" checked>
                     <label for="tab2" class="tabs__label">Personal Loan</label>
+                    
                 </div>
+
             </div>
+
+
             <div style="display: flex; flex-direction: row;">
+
+
                 <div class="la">
                     <div>
                         <p class="title">Loan Amount</p>
-                    
-                            
-                                <div>
-                                    <input type="text" class="box" placeholder="7,50,000">
-                                </div>
-                                <div style=" position: absolute; position: relative; padding-left: 254px; top:-42px;">
-                                    <img   src="ic_baseline-currency-rupee.png" alt="">
-                                </div>
-                          
-                    
-                        <p class="ptext" style="margin-top: -14px;">Enter a amount without any spaces</p>
+
+                        <div style="display: flex; flex-direction: row;">
+
+                            <input type="text" class="box" placeholder="7,50,000">
+
+                            <img width="24px" height="24px"
+                                style="position: absolute; position: relative; left: -45px; top: 18px;"
+                                src="ic_baseline-currency-rupee.png" alt="">
+
+                        </div>
+
+                        <p class="ptext">Enter a amount without any spaces</p>
                     </div>
-                    <div>
+                    <div style="margin-top: 25px;">
                         <p class="title">Loan Tenure</p>
-                       
-                            <input type="text" class="box" placeholder="3">
-                     
+                        <input type="text" class="box" placeholder="3">
                         <p class="ptext">Enter a Loan Tenure in Months / Years</p>
                     </div>
-                    <div style="padding-top: 20px;">
+                    <div style="padding-top: 50px;">
                         <button disabled class="calb">Calculate</button>
                     </div>
 
@@ -94,82 +101,79 @@
                 <div class="interestrate">
                     <div>
                         <p class="title">Interest Rate</p>
-                       
-                        <div>
-                            <input type="text" class="box" placeholder="11">
+
+                        <div style="display: flex; flex-direction: row;">
+                            <div>
+                                <input type="text" class="box" placeholder="11">
+
+                                <img style="position: absolute; position: relative; left: 285px; top: -43px;"
+                                    src="prime_percentage.png" alt="">
+                            </div>
                         </div>
-                        <div style=" position: absolute; position: relative; padding-left: 254px; top:-42px;">
-                            <img   src="prime_percentage.png" alt="">
-                        </div>
-                       
-                
-                        <p  style="margin-top: -16px;" class="ptext">Eg 7.5%</p>
+                        <p class="ptext" style="margin-top: -20px;">Eg 7.5%</p>
                     </div>
-                    <div class="radio">
-
-
+                    <div class="radio" style="margin-top: 40px;">
                         <div>
-                            <input style="vertical-align: bottom;" type="radio" name="contact" value="email" id="email" checked>
+                            <input style=" vertical-align: bottom;" type="radio" name="contact" value="email" id="email"
+                                checked>
                             <label class="p" for="phone">Year </label>
-
                         </div>
-
                         <div style="padding-left: 30px;">
 
-                            <input style="vertical-align: bottom;" type="radio" name="contact" value="phone" id="phone">
+                            <input style=" vertical-align: bottom;" type="radio" name="contact" value="phone"
+                                id="phone">
                             <label class="p" for="phone">Months </label>
 
                         </div>
                     </div>
                 </div>
-                <div style="display: flex; flex-direction: column; margin-left: 15px;">
-                    <div class="loanemi">
-                        <div style="padding-top: 23px;">
-                            <div class="loan" style="line-height: 20px;">
-                                <p style="color: #828282;"> Loan EMI</p>
-                                <h6 class="title1">₹ 24,554</h6>
-                                <hr class="hr">
-                                <p style="color: #828282;">Total Interest Payable</p>
-                                <h6 class="title1">₹ 1,33,945</h6>
-                                <hr class="hr">
-                                <p style="color: #828282;">Total Payment (Principal + Interest)</p>
-                                <h6 class="title1">₹ 8,83,945</h6>
-                            </div>
-                        </div>
+                <div style="display: flex; flex-direction: column; width: 33%; margin-right: 18px;">
+                    <div class="loan">
+                        <p class="ptext"> Loan EMI</p>
+                        <h6 class="title1">₹ 24,554</h6>
+                        <hr class="hr">
+                        <p class="ptext">Total Interest Payable</p>
+                        <h6 class="title1">₹ 1,33,945</h6>
+                        <hr class="hr">
+                        <p class="ptext">Total Payment (Principal + Interest)</p>
+                        <h6 class="title1">₹ 8,83,945</h6>
                     </div>
-                    <div style="padding-top: 20px;">
-                        <div class=" lb2">
-                          <div style="padding-left: 50px;">
-                            <h6 class="title1">Break-up of Total Payment</h6>
-                          </div>
-                            <div style="padding-left: 70px;">
-                                <img src="Group 44 (1).png" alt="">
-                            </div>
-                          <!--box-->
-                          <div style="padding-top: 30px;">
-                            <div class="bx">
-                                <div style="display: flex; flex-direction: row;">
-                                    <div style="padding-top: 17px;">
-                                        <div class="cbox">
 
-                                        </div>
+                    <div class=" lb2" style="margin-top: 20px;">
+
+                        <h6 style=" text-align: center;" class="title1">Break-up of Total Payment</h6>
+
+
+                        <img width="190px" style="padding-left: 70px; padding-top: 30px; " height="190px"
+                            src="Group 44 (1).png">
+
+                        <!--box-->
+
+                        <div class="bx" style="margin:30px 14px;">
+                            <div style="display: flex; flex-direction: row; margin-top: -5px;">
+                                <div style="padding-top: 17px; padding-left: 8px;">
+                                    <div class="cbox">
+
                                     </div>
-                                    <p class="tt" style="text-align: center;">Principal Loan Amount</p>
-                                    <div style="padding-top: 17px; padding-left: 5px;">
+                                </div>
+                                <p class="tt" style="text-align: center;padding-left: 10px;
+                                padding-right: 3px;">Principal Loan Amount</p>
+                                <div style="padding-top: 17px; padding-left: 10px;">
                                     <div class="cb">
 
                                     </div>
-                                   </div>
-                                    <p class="tt">Total Interest</p>
                                 </div>
+                                <p class="tt" style="padding-right: 6px; padding-left: 10px;">Total Interest</p>
                             </div>
-                          </div>
                         </div>
                     </div>
                 </div>
-
             </div>
+
+
         </div>
+    </div>
+
     </div>
 </body>
 

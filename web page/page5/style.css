@@ -1,8 +1,10 @@
 body {
     font-family: Inter;
-    background-color:  #2233540D;;
+    background-color: #2233540D;
+    ;
     margin: 0;
 }
+
 .main {
     display: flex;
     flex-direction: row;
@@ -12,23 +14,14 @@ body {
 
 .left {
     background: #FFFFFF;
-    width: 250px;
     height: 700px;
-    gap: 0px;
-    opacity: 0px;
     float: left;
-    padding: 20px;
-    padding-left: 30px;
+    padding-left: 16px;
 }
 
 .logo {
-    width: 75.05px;
-    height: 59.21px;
-    left: 67.21px;
-    border-radius: 2px;
-    align-items: center;
+    width: 90px;
     padding-bottom: 100px;
-    padding-left: 15px;
     padding-top: 10px;
 
 }
@@ -55,8 +48,9 @@ body {
     color: #1AB4D7;
     padding: 20px;
 }
+
 .p {
-    color :#515151;
+    color: #515151;
 }
 
 .p1 {
@@ -73,15 +67,16 @@ body {
 .rr {
     display: flex;
     flex-direction: row;
-    padding-left: 362px;
-    padding-top: 10px;
+    padding-left: 300px;
+    padding-top: 15px;
+    width: 27%;
 
 }
 
 .rl {
     padding-top: 10px;
     height: 100px;
-    width: 500px;
+    width: 73%;
 }
 
 .il {
@@ -97,6 +92,14 @@ body {
     border: 2px solid #dbdcdc;
     color: #ababac;
     border-radius: 8px;
+    background: transparent;
+}
+
+input[type="text"]::placeholder {
+    font-weight: 400;
+    color: #858585;
+    font-size: 16px;
+    padding-left: 10px;
 }
 
 .title {
@@ -106,7 +109,6 @@ body {
     font-weight: 700;
     line-height: 22.4px;
     text-align: left;
-
 }
 
 .ptext {
@@ -121,7 +123,7 @@ body {
 
 .la {
     width: 33.33%;
-    padding-left: 15px;
+    padding-left: 30px;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
@@ -130,14 +132,16 @@ body {
 .interestrate {
     width: 33.33%;
     padding-top: 10px;
-    padding-left: 10px;
 
 }
 
 .loanemi {
     width: 33.33%;
     padding-left: 20px;
+    display: flex; 
+    flex-direction: column;
     padding-right: 20px;
+   margin-top: 77px;
 }
 
 .calb {
@@ -147,37 +151,46 @@ body {
     background-color: #e0e0e0;
     color: white;
     border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
 }
+
 .radio {
     display: flex;
     flex-direction: row;
-    padding-left: 20px; 
-   padding-top: 72px;
+    padding-left: 20px;
+    padding-top: 72px;
 }
+
 input[type="radio"] {
     border-radius: 5px;
     width: 20px;
     height: 20px;
     accent-color: #223354;
 }
+
+
 .loan {
     background: #FFFFFF;
-    width: 300px;
-    height: 340px;
+    height: 268px;
     border-radius: 5px;
-    float: left;
-    padding: 20px;
-    margin-top: 100px;
-   
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
 
 }
-hr{
+
+.hr {
+    border-top: 1px solid #eee;
+    width: 365px;
+    margin-left: -20px;
+}
+
+.ht {
+    height: 32px;
     border: 1px solid #ebebeb;
 }
-.ht{
-    height: 40px;
-    border:1px solid #ebebeb;
-}
+
 .select {
     background-color: #edf9fc;
     width: 208px;
@@ -185,59 +198,65 @@ hr{
     border-radius: 8px;
     float: left;
 }
+
 .title1 {
     color: black;
     font-family: Inter;
     font-size: 16px;
     font-weight: 700;
-  margin-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: left;
 
 }
+
 /*tabs*/
 .tabs {
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
     font-family: sans-serif;
-  }
-  
-  .tabs__label {
+}
+
+.tabs__label {
     padding: 10px 16px;
     cursor: pointer;
-  }
-  
-  .tabs__radio {
+    border-bottom: 3px solid #e4e4e5;
+}
+
+.tabs__radio {
     display: none;
-  }
-  
-  .tabs__content {
+}
+
+.tabs__content {
     order: 1;
     width: 100%;
     border-bottom: 3px solid #dddddd;
     line-height: 1.5;
     font-size: 0.9em;
     display: none;
-  }
-  
-  .tabs__radio:checked+.tabs__label {
+}
+
+.tabs__radio:checked+.tabs__label {
     font-weight: bold;
     color: #223354;
     border-bottom: 2px solid #223354;
-  }
-  
-  .tabs__radio:checked+.tabs__label+.tabs__content {
+}
+
+.tabs__radio:checked+.tabs__label+.tabs__content {
     display: initial;
-  }
-  .lb2 {
-    background: #FFFFFF;
+}
+
+.lb2 {
+    background:#E0E0E0;
     width: 340px;
     height: 348px;
     float: left;
     padding: 20px;
     padding-left: 30px;
 }
-  /*color box */
+
+/*color box */
 .cbox {
     width: 16px;
     height: 16px;

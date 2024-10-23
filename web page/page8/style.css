@@ -6,13 +6,9 @@ body {
 
 .left {
     background: #FFFFFF;
-    width: 250px;
-    height: 700px;
-    gap: 0px;
-    opacity: 0px;
-    float: left;
-    padding: 20px;
-    padding-left: 30px;
+    height: 780px;
+    float: left;  
+    padding-left: 20px;
 }
 
 .main {
@@ -21,15 +17,9 @@ body {
 }
 
 .logo {
-    width: 75.05px;
-    height: 59.21px;
-    left: 67.21px;
-    border-radius: 2px;
-    align-items: center;
+    width: 90px;
     padding-bottom: 100px;
-    padding-left: 15px;
     padding-top: 10px;
-
 }
 
 .vector {
@@ -79,18 +69,20 @@ p {}
 
 }
 
+
 .rr {
     display: flex;
     flex-direction: row;
-    padding-left: 347px;
-    padding-top: 10px;
+    padding-left: 300px;
+    padding-top: 15px;
+    width: 27%;
 
 }
 
 .rl {
     padding-top: 10px;
     height: 100px;
-    width: 500px;
+    width: 73%;
 }
 
 .select {
@@ -109,15 +101,17 @@ hr {
 .container {
     display: flex;
     flex-direction: row;
-    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 76px;
+    gap: 5px;
 }
 
 .box {
     height: 56px;
     width: 320px;
-    border: 2px solid #dbdcdc;
-    color: #ababac;
-    border-radius: 8px;
+    border: 1px solid #bdbdbd;
+    color: #828282;
+    border-radius: 4px;
     background: transparent;
 }
 
@@ -125,7 +119,8 @@ input[type="text"]::placeholder {
     font-weight: 400;
     color: #ababac;
     font-size: 16px;
-    padding-left: 5px;
+    padding-left: 20px;
+  
 
 
 }
@@ -145,42 +140,45 @@ textarea {
     padding-left: 10px;
 }
 
-input::placeholder {
-    color: #ababac;
+textarea::placeholder {
+    color:#828282;
+    opacity: 0.5;
+    padding: 16px 24px;
 }
 
-.ht5 {
 
+.ht5 {
     color: #223354;
     font-size: 24px;
     font-weight: 700;
-    line-height: 26.4px;
-    text-align: left;
-    padding-left: 20px;
+    margin: 0;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    margin-left: 4px;  
 }
 
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
+  
     width: 100%;
+    border-collapse: collapse;
+    border-radius: 4px;
 }
+
 .p{
     color: #ababac;
 
 }
 td {
-    border: 1px solid #dddddd;
+    
     text-align: center;
     padding: 8px;
 }
 
 th {
-    border: 1px solid #dddddd;
+  
     text-align: center;
     color: white;
-    padding: 8px;
     height: 64px;
-    border-radius: 4px;
     background-color: #223354;
 }
 
@@ -203,11 +201,34 @@ tr:nth-child(odd) {
     height: 49px;
     padding: 13px 29px 13px 27px;
     border: none;
+    font-weight: 700;
+    font-size: 16px;
     border-radius: 8px;
     color: white;
     background: #1AB4D7;
 }
-
+.addbutton1{
+    text-align: center;
+    margin-left: 912px;
+    padding-top: 7px;
+    margin-bottom: 39px;
+}
+.tableinv {
+    width: 95%;   
+      margin-right: 145px;
+    margin-left: 20px;
+}
+.textinv{
+   
+    margin-bottom: 32px;
+    margin-right: 28px;
+}
+.sub1{
+    display: flex; 
+    flex-direction: row;
+    margin-top: 24px; 
+     margin-left: 229px;
+}
 .tbox {
     width: 442px;
     height: 55px;
@@ -245,11 +266,27 @@ tr:nth-child(odd) {
     height: 220px;
     background-color: #FFFFFF;
 }
+.tabletext{
+font-size: 16px;
+font-weight: 400;
+color: #828282;
+}
+.tabletext1{
+font-size: 16px;
+font-weight: 400;
+color: #4f4f4f;
 
+}
 .note {
-    width: 462px;
+    width: 496px;
     height: 118px;
     gap: 10px;
     border-radius: 4px;
     border: 1px solid #E0E0E0;
+}
+.notes{
+    width: 50%; 
+    margin: 30px; 
+    margin-left: 38px;
+    margin-bottom: 98px;
 }
